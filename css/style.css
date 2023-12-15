@@ -4,6 +4,32 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: #a3a3a3;"
+html{
+    font-family: 'Roboto'
+}
+li {
+    list-style: none;
+}
+.header{
+    display:flex ;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    color: white;
+    fill: white;
+}
+.header{
+    background-color: #2c2929;
 } 
+.header svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+.header .social-menu {
+    display: flex;
+}
+
+.list {
+    display: flex;
+}
