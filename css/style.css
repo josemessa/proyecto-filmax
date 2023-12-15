@@ -17,6 +17,10 @@ html{
 li {
     list-style: none;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 .bg-main{
     background-color: #1a1d24;
 }
@@ -53,7 +57,39 @@ li {
     fill: white;
 }
 .news {
+    position: relative;
     max-width: 1200px;
     margin-inline: auto;
     background-color: #1a1d24;
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.news article{
+    max-width: 75%;
+}
+
+.news > article img{
+    height: 600px
+    ;
+}
+.news aside article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.news aside article :last-child{
+    margin-bottom: 0px;
+}
+
+.recent {margin-bottom: 25px;}
+
+.news-data {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.film-bar{
+    display: flex;
 }
