@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 html{
-    font-family: 'Roboto'
+    font-family: 'Roboto';
 }
 li {
     list-style: none;
+}
+.bg-main{
+    background-color: #1a1d24;
 }
 .header{
     display:flex ;
@@ -17,10 +20,10 @@ li {
     align-items: center;
     color: white;
     fill: white;
-}
-.header{
-    background-color: #2c2929;
-} 
+    max-width: 1200px;
+    margin-inline: auto;
+    text-transform: uppercase;
+    }
 .header svg {
     width: 20px;
     height: 20px;
@@ -28,6 +31,7 @@ li {
 }
 .header .social-menu {
     display: flex;
+    align-items: center;
 }
 
 .list {
