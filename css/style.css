@@ -52,7 +52,8 @@ li {
     justify-content: space-between;
     fill: white;
 }
-
-.film-bar{
-    display: flex;
-  }
+.news {
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: #1a1d24;
+}
