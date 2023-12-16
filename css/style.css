@@ -132,7 +132,7 @@ aside{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 50px;
-    justify-conten;
+    gap: 10px;
 }
 .by-gender{
     max-width: 1200px;
