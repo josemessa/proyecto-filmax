@@ -83,7 +83,11 @@ img{
     margin-bottom: 0px;
 }
 
-.recent {margin-bottom: 25px;}
+.recent {
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 .news-data {
     position: absolute;
@@ -92,4 +96,15 @@ img{
 }
 .film-bar{
     display: flex;
+}
+aside article h3{
+    font-weight: 700px;
+}
+aside div h3{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+aside div time{
+    color: grey;
+    font-size: 14px;
 }
