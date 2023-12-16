@@ -68,12 +68,9 @@ img{
     gap: 30px;
     color: white;
 }
-.news > article{
-    max-width: 100%;
-}
-
 .news > article img{
-    height: 600p;
+    height: ;
+    margin-bottom: 80px;
     
 }
 .news aside article {
@@ -130,5 +127,34 @@ aside div time{
 aside{
     max-width: 22%;
 }
+.by-gender ul{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.by-gender{
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
 
-
+.by-gender article{
+    position: relative;
+}
+.by-gender div{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.by-gender div h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.by-gender div a{
+    color: white;
+    font-size: 10px;
+}
