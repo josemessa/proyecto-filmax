@@ -68,13 +68,13 @@ img{
     gap: 30px;
     color: white;
 }
-.news article{
-    max-width: 75%;
+.news > article{
+    max-width: 100%;
 }
 
 .news > article img{
-    height: 600px
-    ;
+    height: 600p;
+    
 }
 .news aside article {
     display: flex;
@@ -97,7 +97,7 @@ img{
     bottom: 0px;
     right: 0px;
     background-color: #1a1d24;
-    padding: 40px;
+    padding: 25px;
     max-width: 50%;
 }
 .film-bar{
@@ -126,6 +126,9 @@ aside div time{
 .news article a{
     text-transform: uppercase;
     font-weight: 700;
+}
+aside{
+    max-width: 22%;
 }
 
 
