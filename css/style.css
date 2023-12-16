@@ -62,6 +62,7 @@ img{
 .news {
     position: relative;
     max-width: 1200px;
+    max-height: 600px;
     margin-inline: auto;
     background-color: #1a1d24;
     display: flex;
@@ -69,10 +70,9 @@ img{
     color: white;
 }
 .news > article img{
-    height: ;
-    margin-bottom: 80px;
-    
-}
+    height: 600px;
+    width: 750px;
+    }
 .news aside article {
     display: flex;
     gap: 25px;
@@ -132,6 +132,7 @@ aside{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 50px;
+    justify-conten;
 }
 .by-gender{
     max-width: 1200px;
