@@ -164,7 +164,9 @@ aside{
 }
 
 /*FILM-BAR*/
-
+.gender{
+    height: 350px;
+}
 .film-bar{
     display: flex;
     position: relative;
@@ -197,4 +199,13 @@ aside{
     color: white;
     font-size: 10px;
     gap: 25px;
+}
+/*SAMURAI*/
+.samurai{
+    position: relative;    
+}
+.samurai-data{
+    position: absolute;
+    top: 25px;
+    left: 50%;
 }
