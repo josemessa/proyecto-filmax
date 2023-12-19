@@ -1,0 +1,9 @@
+/*SAMURAI (samurai background+info)*/
+.samurai{
+    position: relative;    
+}
+.samurai-data{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+}

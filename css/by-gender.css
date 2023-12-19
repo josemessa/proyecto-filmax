@@ -1,0 +1,72 @@
+/*by-gender(films bar sorted by genders)*/ 
+
+.by-gender ul{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.by-gender{
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+
+.by-gender article{
+    position: relative;
+}
+.by-gender div{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.by-gender div h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.by-gender div a{
+    color: white;
+    font-size: 10px;
+}
+
+/*FILM-BAR*/
+.gender{
+    height: 350px;
+}
+.film-bar{
+    display: flex;
+    position: relative;
+}
+.film-bar article{
+    position: relative;
+}
+.title-gender{
+    position: absolute;
+    bottom:20%;
+    left: 25px;
+    
+}
+.title-gender h3{
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.title-gender a{
+    font-size: 10px;
+    color: white;
+}
+.trailer-info {
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    left: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    gap: 25px;
+}

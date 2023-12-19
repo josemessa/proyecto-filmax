@@ -1,0 +1,72 @@
+/* news (cinema related articles)*/
+
+.news {
+    position: relative;
+    max-width: 1200px;
+    max-height: 600px;
+    margin-inline: auto;
+    background-color: #1a1d24;
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+.bg-main{
+    background-color: #1a1d24;
+}
+.news > article img{
+    height: 600px;
+    width: 750px;
+    }
+.news aside article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.news aside article :last-child{
+    margin-bottom: 0px;
+}
+
+.recent {
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news-data {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #1a1d24;
+    padding: 25px;
+    max-width: 50%;
+}
+
+aside article h3{
+    font-weight: 700px;
+}
+aside div h3{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+aside div time{
+    color: rgb(145, 143, 143);;
+    font-size: 14px;
+}
+.news article h2{
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.news article p{
+    color: rgb(145, 143, 143);
+    margin-block: 15px;
+}
+.news article a{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+aside{
+    max-width: 22%;
+}
