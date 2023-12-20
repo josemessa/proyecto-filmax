@@ -2,9 +2,9 @@
 
 .by-gender ul{
     display: flex;
-    text-transform: uppercase;
-    font-weight: 700;
     margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight:var(--weight-title);
     gap: 10px;
 }
 .by-gender{
@@ -25,8 +25,8 @@
 }
 .by-gender div h3{
     text-transform: uppercase;
-    font-weight: 700;
-    color: white;
+    font-weight: var(--weight-title);
+    color: var(--color-title);
 }
 .by-gender div a{
     color: white;

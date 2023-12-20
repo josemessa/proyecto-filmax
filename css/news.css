@@ -8,7 +8,7 @@
     background-color: #1a1d24;
     display: flex;
     gap: 30px;
-    color: white;
+    color: var(--color-title)
 }
 
 .bg-main{
@@ -44,10 +44,10 @@
 }
 
 aside article h3{
-    font-weight: 700px;
+    font-weight: var(--weight-title)
 }
 aside div h3{
-    font-weight: 700;
+    font-weight: var(--weight-title);
     margin-bottom: 4px;
 }
 aside div time{
@@ -57,7 +57,7 @@ aside div time{
 .news article h2{
     font-size: 37px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: var(--weight-title);
 }
 .news article p{
     color: rgb(145, 143, 143);
@@ -65,7 +65,7 @@ aside div time{
 }
 .news article a{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: var(--weight-title);
 }
 aside{
     max-width: 22%;

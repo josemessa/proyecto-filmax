@@ -1,4 +1,7 @@
 :root{
+    --font-title: 'Roboto',sans-serif;
+    --color-title: white;
+    --weight-title: 700;
     
 }
 *:where(
