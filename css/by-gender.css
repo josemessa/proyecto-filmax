@@ -1,10 +1,13 @@
 /*by-gender(films bar sorted by genders)*/ 
-
+.by-gender{
+    top: -125px;
+}
 .by-gender ul{
     display: flex;
     margin-bottom: 50px;
     text-transform: uppercase;
     font-weight:var(--weight-title);
+    color: rgb(145, 143, 143);
     gap: 10px;
 }
 .by-gender{

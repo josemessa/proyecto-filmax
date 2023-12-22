@@ -1,9 +1,64 @@
 /*SAMURAI (samurai background+info)*/
+.bg-samurai{
+    background-color: white;
+    height: 500px;
+    position: relative;
+}
 .samurai{
-    position: relative;    
+    max-width:1200px ;
+    background-position: center;
+    position: absolute;
+    bottom: 0
+; 
+    margin-inline:auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);   
+    height: 440px;
 }
 .samurai-data{
-    position: absolute;
-    top: 25px;
-    left: 50%;
+     width:50%;
+}
+.samurai-data div p{
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.samurai-data div h3{
+    font-weight: var(--weight-title);
+    color: #1a1d24;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: -.3px;
+    margin-bottom: 30px;
+
+}
+
+.samurai-data :nth-child(2) >span{
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    color: #1a1d24;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.samurai-data p{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    
+}
+.samurai-data footer::before{
+    content: ">";
+    color: red;
+}
+.samurai-data footer a{
+    margin-right: 30px;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.samurai-data footer :first-child{
+    color: red;
 }

@@ -3,12 +3,12 @@
 .news {
     position: relative;
     max-width: 1200px;
-    max-height: 600px;
     margin-inline: auto;
     background-color: #1a1d24;
     display: flex;
     gap: 30px;
-    color: var(--color-title)
+    color: var(--color-title);
+    padding-bottom: 200px;
 }
 
 .bg-main{
@@ -19,6 +19,7 @@
     width: 80%;
     background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     }
 .news aside article {
@@ -35,6 +36,15 @@
     margin-bottom: 25px;
     font-weight: 700;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+.recent::after{
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: red;
 }
 
 .news-data {
@@ -44,6 +54,7 @@
     background-color: #1a1d24;
     padding: 25px;
     max-width: 50%;
+    padding-bottom: 200px;
 }
 
 aside article h3{
@@ -69,6 +80,11 @@ aside div time{
 .news article a{
     text-transform: uppercase;
     font-weight: var(--weight-title);
+    
+}
+.news-data a::after{
+    content: "->";
+    color: red;
 }
 aside{
     max-width: 22%;

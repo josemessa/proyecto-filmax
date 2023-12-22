@@ -1,11 +1,8 @@
 /*FILM-BAR*/
-.gender{
-    height: 350px;
-}
+
 .film-bar{
     display: flex;
     position: relative;
-    width: 100%;
 }
 .film-bar article{
     position: relative;
@@ -17,12 +14,13 @@
     
 }
 .title-gender h3{
+    font-size: 25px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
 }
 .title-gender a{
-    font-size: 10px;
+    font-size: 14px;
     color: white;
 }
 .trailer-info {
@@ -33,6 +31,6 @@
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     gap: 25px;
 }
