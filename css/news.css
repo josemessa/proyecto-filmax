@@ -14,9 +14,12 @@
 .bg-main{
     background-color: #1a1d24;
 }
-.news > article img{
+.news > article {
     height: 600px;
-    width: 750px;
+    width: 80%;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 .news aside article {
     display: flex;
