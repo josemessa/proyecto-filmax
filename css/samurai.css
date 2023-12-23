@@ -1,24 +1,28 @@
 /*SAMURAI (samurai background+info)*/
 .bg-samurai{
     background-color: white;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 .samurai{
-    max-width:1200px ;
-    background-position: center;
     position: absolute;
-    bottom: 0
-; 
-    margin-inline:auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);   
+    height: 500px;
+    bottom: 0;
     display: flex;
     justify-content: end;
     align-items: center;
-    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);   
-    height: 440px;
 }
 .samurai-data{
      width:50%;
+}
+.samurai-data div div{
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+    margin-bottom: 25px;
 }
 .samurai-data div p{
     font-weight: var(--weight-title);
@@ -31,7 +35,7 @@
     font-weight: var(--weight-title);
     color: #1a1d24;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 44px;
     letter-spacing: -.3px;
     margin-bottom: 30px;
 
@@ -45,7 +49,7 @@
     font-size: 14px;
 }
 .samurai-data p{
-    margin-top: 30px;
+    margin-top: 26px;
     margin-bottom: 25px;
     
 }
