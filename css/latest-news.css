@@ -1,0 +1,79 @@
+.bg-latest {
+  background-color: white;
+}
+.latest-news {
+  height: 1100px;
+  max-width: 1200px;
+  display: flex;
+  background-color: white;
+  position: relative;
+  align-items: center;
+  margin-inline: auto;
+}
+.empty-space {
+  position: absolute;
+  top: 0px;
+  height: 120px;
+  width: 1200px;
+}
+.latest-header {
+  height: 110px;
+  position: absolute;
+  top: 120px;
+}
+.latest-header div {
+  height: 1.5px;
+  width: 55px;
+  background-color: red;
+  margin-bottom: 25px;
+}
+.latest-header h2 {
+  font-weight: var(--weight-title);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.grid-news {
+  display: grid;
+  position: absolute;
+  align-items: center;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 270px);
+  gap: 20px;
+}
+.art-1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 560px;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-3-copyright-1024x683.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.art-2{
+    height: 270px;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-12-copyright-760x507.jpg); 
+    background-size: cover; 
+    background-position: center;
+
+}
+.art-3{
+    height: 270px;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-5-copyright-760x506.jpg); 
+    background-size: cover; 
+    background-position: center;
+    
+}
+.art-4{
+    grid-column: 3/ 5;
+    height: 270px;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-6-copyright-760x507.jpg); 
+    background-size: cover; 
+    background-position: center; 
+}
+.browse {
+  color: red;
+  display: flex;
+  bottom: 100px;
+  position: absolute;
+  justify-content: center;
+}

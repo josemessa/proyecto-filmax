@@ -12,6 +12,7 @@
 }
 
 .bg-main {
+  display: block;
   background-color: #1a1d24;
 }
 .news > article {
