@@ -79,8 +79,9 @@
   display: flex;
   bottom: 100px;
   position: absolute;
-  justify-content: center;
+  margin-inline: center;
   padding: 15px;
   padding-left: 40px;
-  padding-right:  40px; ;
+  padding-right:  40px; 
+
 }

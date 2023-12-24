@@ -4,7 +4,6 @@
   position: static;
   display: flex;
   justify-content: space-between;
-  z-index: 9999;
   height: 80px;
   align-items: center;
   color: white;
