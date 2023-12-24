@@ -2,7 +2,7 @@
     --font-title: 'Roboto',sans-serif;
     --color-title: white;
     --weight-title: 700;
-    --font-quote: 'Lora', serif;'
+    --font-quote: 'Lora', serif;
 }
 *:where(
     :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
