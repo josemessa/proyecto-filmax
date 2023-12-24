@@ -1,32 +1,28 @@
-:root{
-    --font-title: 'Roboto',sans-serif;
-    --color-title: white;
-    --weight-title: 700;
-    --font-quote: 'Lora', serif;
+:root {
+  --font-title: "Roboto", sans-serif;
+  --color-title: white;
+  --weight-title: 700;
+  --font-quote: "Lora", serif;
 }
 *:where(
     :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
- ) {
-        all: unset;  
-        display: revert;
-    }
-*{
-    box-sizing: border-box;
+  ) {
+  all: unset;
+  display: revert;
 }
-html{
-    font-family: 'Roboto';
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto";
 }
 li {
-    list-style: none;
+  list-style: none;
 }
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
-main{
-    background-color: #a8a8a8;
+main {
+  background-color: #a8a8a8;
 }
-
-
-
-

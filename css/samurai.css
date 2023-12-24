@@ -1,68 +1,66 @@
 /*SAMURAI (samurai background+info)*/
-.bg-samurai{
-    background-color: white;
-    height: 550px;
-    position: relative;
+.bg-samurai {
+  background-color: white;
+  height: 550px;
+  position: relative;
 }
-.samurai{
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);   
-    height: 500px;
-    bottom: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.samurai {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);
+  height: 500px;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
-.samurai-data{
-     width:50%;
+.samurai-data {
+  width: 50%;
 }
-.samurai-data div div{
-    height: 1.5px;
-    width: 55px;
-    background-color: red;
-    margin-bottom: 25px;
+.samurai-data div div {
+  height: 1.5px;
+  width: 55px;
+  background-color: red;
+  margin-bottom: 25px;
 }
-.samurai-data div p{
-    font-weight: var(--weight-title);
-    text-transform: uppercase;
-    color: grey;
-    font-size: 14px;
-    margin-bottom: 15px;
+.samurai-data div p {
+  font-weight: var(--weight-title);
+  text-transform: uppercase;
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
-.samurai-data div h3{
-    font-weight: var(--weight-title);
-    color: #1a1d24;
-    text-transform: uppercase;
-    font-size: 44px;
-    letter-spacing: -.3px;
-    margin-bottom: 30px;
+.samurai-data div h3 {
+  font-weight: var(--weight-title);
+  color: #1a1d24;
+  text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: -0.3px;
+  margin-bottom: 30px;
+}
 
+.samurai-data :nth-child(2) > span {
+  font-weight: var(--weight-title);
+  text-transform: uppercase;
+  color: #1a1d24;
+  margin-right: 25px;
+  font-size: 14px;
 }
-
-.samurai-data :nth-child(2) >span{
-    font-weight: var(--weight-title);
-    text-transform: uppercase;
-    color: #1a1d24;
-    margin-right: 25px;
-    font-size: 14px;
+.samurai-data p {
+  margin-top: 26px;
+  margin-bottom: 25px;
 }
-.samurai-data p{
-    margin-top: 26px;
-    margin-bottom: 25px;
-    
+.samurai-data footer::before {
+  content: ">";
+  color: red;
 }
-.samurai-data footer::before{
-    content: ">";
-    color: red;
+.samurai-data footer a {
+  margin-right: 30px;
+  font-weight: var(--weight-title);
+  text-transform: uppercase;
+  font-size: 14px;
 }
-.samurai-data footer a{
-    margin-right: 30px;
-    font-weight: var(--weight-title);
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.samurai-data footer :first-child{
-    color: red;
+.samurai-data footer :first-child {
+  color: red;
 }

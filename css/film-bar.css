@@ -1,36 +1,35 @@
 /*FILM-BAR*/
 
-.film-bar{
-    display: flex;
-    position: relative;
+.film-bar {
+  display: flex;
+  position: relative;
 }
-.film-bar article{
-    position: relative;
+.film-bar article {
+  position: relative;
 }
-.title-gender{
-    position: absolute;
-    bottom:20%;
-    left: 25px;
-    
+.title-gender {
+  position: absolute;
+  bottom: 20%;
+  left: 25px;
 }
-.title-gender h3{
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
+.title-gender h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
 }
-.title-gender a{
-    font-size: 14px;
-    color: white;
+.title-gender a {
+  font-size: 14px;
+  color: white;
 }
 .trailer-info {
-    position: absolute;
-    display: flex;
-    bottom: 5%;
-    left: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: white;
-    font-size: 14px;
-    gap: 25px;
+  position: absolute;
+  display: flex;
+  bottom: 5%;
+  left: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  gap: 25px;
 }

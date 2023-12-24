@@ -1,47 +1,45 @@
-.quotes{
-    position: relative;
-    height: 500px;
-    display: flex;
-    background-color: #e0011a;
+.quotes {
+  position: relative;
+  height: 500px;
+  display: flex;
+  background-color: #e0011a;
 }
-.quotes article{
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.quotes article {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.quotes article div img{
-    display: flex;
-    margin-inline: auto;
-    margin-bottom: 30px;
-    border-radius: 50%;
+.quotes article div img {
+  display: flex;
+  margin-inline: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
 }
 
-.quotes article div{
-    color: white;  
-    
+.quotes article div {
+  color: white;
 }
-.quotes article div blockquote p{
+.quotes article div blockquote p {
   width: 80%;
   margin-inline: auto;
   margin-bottom: 25px;
-  font-family:var(--font-quote);
+  font-family: var(--font-quote);
   font-size: 19.5px;
 }
 
-.quotes article div blockquote>*{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 10px;
-    
+.quotes article div blockquote > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
 }
-.quotes article div blockquote h4{
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
+.quotes article div blockquote h4 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.quotes article div blockquote span{
-    font-size: 12px;
-    font-weight: 100;
+.quotes article div blockquote span {
+  font-size: 12px;
+  font-weight: 100;
 }

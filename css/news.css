@@ -1,91 +1,90 @@
 /* news (cinema related articles)*/
 
 .news {
-    position: relative;
-    max-width: 1200px;
-    margin-inline: auto;
-    background-color: #1a1d24;
-    display: flex;
-    gap: 30px;
-    color: var(--color-title);
-    padding-bottom: 200px;
+  position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: #1a1d24;
+  display: flex;
+  gap: 30px;
+  color: var(--color-title);
+  padding-bottom: 200px;
 }
 
-.bg-main{
-    background-color: #1a1d24;
+.bg-main {
+  background-color: #1a1d24;
 }
 .news > article {
-    height: 600px;
-    width: 80%;
-    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    }
+  height: 600px;
+  width: 80%;
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .news aside article {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 25px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
 }
 
-.news aside article :last-child{
-    margin-bottom: 0px;
+.news aside article :last-child {
+  margin-bottom: 0px;
 }
 
 .recent {
-    margin-bottom: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    }
-.recent::after{
-    content: "";
-    width: 20px;
-    height: 1px;
-    background-color: red;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.recent::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  background-color: red;
 }
 
 .news-data {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    background-color: #1a1d24;
-    padding: 25px;
-    max-width: 50%;
-    padding-bottom: 200px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #1a1d24;
+  padding: 25px;
+  max-width: 50%;
+  padding-bottom: 200px;
 }
 
-aside article h3{
-    font-weight: var(--weight-title)
+aside article h3 {
+  font-weight: var(--weight-title);
 }
-aside div h3{
-    font-weight: var(--weight-title);
-    margin-bottom: 4px;
+aside div h3 {
+  font-weight: var(--weight-title);
+  margin-bottom: 4px;
 }
-aside div time{
-    color: rgb(145, 143, 143);;
-    font-size: 14px;
+aside div time {
+  color: rgb(145, 143, 143);
+  font-size: 14px;
 }
-.news article h2{
-    font-size: 37px;
-    text-transform: uppercase;
-    font-weight: var(--weight-title);
+.news article h2 {
+  font-size: 37px;
+  text-transform: uppercase;
+  font-weight: var(--weight-title);
 }
-.news article p{
-    color: rgb(145, 143, 143);
-    margin-block: 15px;
+.news article p {
+  color: rgb(145, 143, 143);
+  margin-block: 15px;
 }
-.news article a{
-    text-transform: uppercase;
-    font-weight: var(--weight-title);
-    
+.news article a {
+  text-transform: uppercase;
+  font-weight: var(--weight-title);
 }
-.news-data a::after{
-    content: "->";
-    color: red;
+.news-data a::after {
+  content: "->";
+  color: red;
 }
-aside{
-    max-width: 22%;
+aside {
+  max-width: 22%;
 }
