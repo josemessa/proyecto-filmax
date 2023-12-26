@@ -6,6 +6,7 @@
 }
 .film-bar article {
   position: relative;
+  width: 25%;
 }
 .title-gender {
   position: absolute;
