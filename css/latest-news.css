@@ -89,3 +89,18 @@
   left: 50%; 
   transform: translateX(-50%)
 }
+.grid-news article div :nth-child(1){
+  font-weight: var(--weight-title);
+  color:#f8b350;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.grid-news article div{
+display: grid;
+}
+/* .grid-news article div :nth-child(2){
+  font-weight: var(--weight-title);
+  color: var(--color-title);
+  text-transform: uppercase;
+  font-size: 14px;
+} */
