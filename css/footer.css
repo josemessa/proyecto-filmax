@@ -24,7 +24,12 @@
 .footer :nth-child(4) nav ul{
     display: flex;
     position: relative;
+    fill: white;
+    size: 12px;
+    justify-content: space-between;
+    padding-top: 40px;
 }
+
 .footer div h3{
     font-weight: var(--weight-title);
     font-family: "Roboto", sans-serif;;
