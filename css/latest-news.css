@@ -98,9 +98,9 @@
 .grid-news article div{
 display: grid;
 }
-/* .grid-news article div :nth-child(2){
+.grid-news article div :nth-child(2){
   font-weight: var(--weight-title);
   color: var(--color-title);
   text-transform: uppercase;
   font-size: 14px;
-} */
+}

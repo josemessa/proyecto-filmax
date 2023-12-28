@@ -11,7 +11,7 @@
     margin-inline: auto;
     color: rgb(145, 143, 143);
     font-family: var(--font-quote), "Roboto", sans-serif;
-    padding-top: 7%;
+    padding-top: 6%;
 }
 
 
@@ -54,4 +54,46 @@
 .ul-line{
     align-items: center;
     gap: 10px;
+}
+
+footer > div:nth-child(4) > nav > ul > div{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    padding-top: 12.5px;
+}
+footer > div:nth-child(4) > nav{
+    display: flex;
+    justify-content: start;
+}
+footer > div:nth-child(4) > nav > ul > div:nth-child(1){
+    background-color:#1da1f3 ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+footer > div:nth-child(4) > nav > ul > div:nth-child(2){
+    background-color:#3a559f;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+footer > div:nth-child(4) > nav > ul > div:nth-child(3){
+    background-color:#ce2e92;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+footer > div:nth-child(4) > nav > ul > div:nth-child(4){
+    background-color:#e0041d;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.newsletter::after{
+    display: flex;
+    content: "";
+    width: 250px;
+    height: 1px;
+    background-color: grey;
 }
