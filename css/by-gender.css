@@ -10,6 +10,12 @@
   color: rgb(145, 143, 143);
   gap: 10px;
 }
+.by-gender ul li:first-child{
+  color: white;
+}
+.by-gender ul li:hover{
+  color: white;
+}
 .by-gender {
   max-width: 1200px;
   margin-inline: auto;
