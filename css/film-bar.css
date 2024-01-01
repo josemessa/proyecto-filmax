@@ -29,8 +29,18 @@
   color: white;
   text-transform: uppercase;
 }
+.title-gender h3:hover{
+  color: lightgray;
+}
 .title-gender a {
   font-size: 14px;
+  color: grey;
+}
+.title-gender :nth-child(3)::before{
+  content: "/";
+  padding: 5px;
+}
+.title-gender a:hover{
   color: white;
 }
 .trailer-info {
@@ -44,3 +54,4 @@
   font-size: 14px;
   gap: 25px;
 }
+

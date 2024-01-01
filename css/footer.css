@@ -43,6 +43,10 @@
 
 .footer div ul li{
     padding-bottom: 10px;
+    font-size: 14px;
+}
+.footer div ul li:hover{
+    color: white;
 }
 .ul-line::after{
     display: flex;

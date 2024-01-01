@@ -61,6 +61,10 @@
   text-transform: uppercase;
   font-size: 14px;
 }
+
+.samurai-data footer a:hover{
+  color: rgb(175, 4, 4) ;
+}
 .samurai-data footer :first-child {
   color: red;
 }

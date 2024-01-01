@@ -40,6 +40,9 @@
   font-weight: var(--weight-title);
   color: var(--color-title);
 }
+.by-gender div h3:hover{
+  color: grey;
+}
 .by-gender div a {
   color: white;
   font-size: 10px;

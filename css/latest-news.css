@@ -125,6 +125,9 @@
   left: 50%; 
   transform: translateX(-50%)
 }
+.browse:hover{
+  background-color: rgb(164, 3, 3);
+}
 .grid-news article div{
   display: flex;
   flex-direction: column;
