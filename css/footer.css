@@ -62,6 +62,9 @@ footer > div:nth-child(4) > nav > ul > div{
     display: flex;
     padding-top: 12.5px;
 }
+footer > div:nth-child(4) > nav > ul{
+    gap: 10px;
+}
 footer > div:nth-child(4) > nav{
     display: flex;
     justify-content: start;
