@@ -51,6 +51,7 @@
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-3-copyright-1024x683.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin: 15px;
 }
 .art-1::before{
@@ -67,6 +68,7 @@
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-12-copyright-760x507.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin: 15px;
 }
 .art-2::before{
