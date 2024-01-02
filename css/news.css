@@ -87,10 +87,12 @@ aside div time:hover{
 .news article a {
   text-transform: uppercase;
   font-weight: var(--weight-title);
-}
+ }
 .news-data a::after {
   content: "->";
+  display: inline-flex;
   color: red;
+  padding-left: 20px;
 }
 aside {
   max-width: 22%;

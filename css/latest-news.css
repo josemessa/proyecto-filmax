@@ -151,9 +151,12 @@
   font-size: 30px;
 }
 .grid-news article div :nth-child(3){
-  color: white;
+  color: lightgrey;
   text-transform: uppercase;
   font-size: 12PX;
+}
+.grid-news article div :nth-child(3):hover{
+  color: white;
 }
 
 .art-2  div  a:nth-child(2){
