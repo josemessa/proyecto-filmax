@@ -94,6 +94,9 @@ aside div time:hover{
   color: red;
   padding-left: 20px;
 }
+.news-data a:hover{
+ color:  #e0041d;
+}
 aside {
   max-width: 22%;
 }
