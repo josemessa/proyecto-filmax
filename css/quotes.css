@@ -21,7 +21,7 @@
   color: white;
 }
 .quotes article div blockquote p {
-  width: 80%;
+  width: 95%;
   margin-inline: auto;
   margin-bottom: 25px;
   font-family: var(--font-quote);
@@ -39,7 +39,20 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-.quotes article div blockquote span {
+.quotes article div blockquote span{
   font-size: 12px;
   font-weight: 100;
+}
+.quote-symbol{
+  margin-left: 43%;
+  position: relative;
+margin-top: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height:40px;
+  background-color: black;
+  fill: white;
+  border-radius: 50%;
 }
