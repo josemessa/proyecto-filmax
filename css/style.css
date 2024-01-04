@@ -26,3 +26,12 @@ img {
 main {
   background-color: #a8a8a8;
 }
+a {
+  cursor: pointer;
+}
+img {
+  cursor: pointer;
+}
+h3 {
+  cursor: pointer;
+}
