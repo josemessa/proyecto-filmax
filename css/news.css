@@ -53,8 +53,8 @@
   bottom: 0px;
   right: 0px;
   background-color: #1a1d24;
-  padding: 25px;
-  max-width: 50%;
+  padding: 25px 0 0 25px;
+  max-width: 35%;
   padding-bottom: 200px;
 }
 
@@ -83,6 +83,7 @@ aside div time:hover{
 .news article p {
   color: rgb(145, 143, 143);
   margin-block: 15px;
+  font-weight: 500;
 }
 .news article a {
   text-transform: uppercase;
