@@ -1,0 +1,56 @@
+/* Header Index bar*/
+.bg-header {
+  display: block;
+  background-color: #1a1d24;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  color: white;
+  color: var(--color-title);
+  max-width: 1200px;
+  margin-inline: auto;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: var(--weight-title);
+}
+.header svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.header .social-menu {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  fill: white;
+}
+.twitter svg:hover{
+  fill:#1da1f3;
+}
+.facebook svg:hover{
+  fill:#3a559f;
+}
+.instagram svg:hover{
+  fill:#ce2e92;
+}
+.youtube svg:hover{
+  fill:#e0041d;
+}
+
+.list span{
+  font-weight: 100;
+  color: grey;
+}
