@@ -1,0 +1,22 @@
+.bg-awards{
+    background-color: white;
+}
+.awards{
+    height: 600px;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: white;
+}
+.awards article h1{
+    position:relative;
+    top: 25px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.awards div{
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+    margin-top: 45px;
+}
