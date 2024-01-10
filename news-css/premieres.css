@@ -1,0 +1,97 @@
+.bg-premieres{
+    position:relative;
+    background-color: white;
+}
+.bg-premieres::before{
+    content:"";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(1deg, black, transparent) ;
+}
+.premieres{
+    position: relative;
+    height: 800px;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: white;
+}
+.soon{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 110px;
+    left: 15px;
+  }
+  .soon p{
+    font-family: var(--font-quote);
+    color: grey;
+  }
+  .soon div {
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+    margin-bottom: 25px;
+  }
+  .soon h2 {
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  /* grid */
+  .new-films{
+    display: grid;
+    position: absolute;
+    top: 27%;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    gap: 20px;
+  }
+  .aquaman{
+    grid-column: 3 / 4;
+    grid-row: 1/3;
+    background-image: url(https://pics.filmaffinity.com/Aquaman_y_el_reino_perdido-274178849-large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+  .wonka{
+    grid-column: 4/5 ;
+    grid-row: 1/3;
+    background-image: url(https://es.web.img3.acsta.net/pictures/23/11/14/17/56/0356452.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.beekeeper{
+    background-image: url(https://pics.filmaffinity.com/Beekeeper_El_protector-634565179-large.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.wish{
+    background-size: cover;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_c9119457.jpeg?region=0,0,540,810);
+    background-position: center;
+}
+.bricklayer{
+    background-size: cover;
+    background-image: url(https://pics.filmaffinity.com/The_Bricklayer-531058472-large.jpg);
+    background-position:top;
+}
+.napoleon{
+    background-size: cover;
+    background-image: url(https://es.web.img2.acsta.net/pictures/23/10/18/15/26/3220184.jpg);
+    background-position:top;
+}
+.premieres::before{
+    content:"";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(1deg, black, transparent) ;
+}
