@@ -1,22 +1,78 @@
 .bg-awards{
-    background-color: white;
+    background-color:white;
 }
 .awards{
-    height: 600px;
+    height: 700px;
     max-width: 1200px;
     margin-inline: auto;
     background-color: white;
 }
-.awards article h1{
+.awards > article{
+    height: 150px;
+    padding-top: 5%;
+}
+.awards > article p{
+    font-family: var( --font-quote);
+    color: grey;
+    padding-top: 40px;
+}
+.awards article h2{
     position:relative;
     top: 25px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
 }
-.awards div{
+.awards article div{
     height: 1.5px;
     width: 55px;
     background-color: red;
-    margin-top: 45px;
+}
+.categories{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 400px;
+    margin-top: 5%;
+    gap: 20px
+}
+.categories p{
+    font-weight: 400;
+    color: var(--color-title);
+}
+.categories h3{
+    font-weight: var(--weight-title);
+    color: var(--color-title);
+    font-size: 25px;
+}
+.categories article{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: end;
+}
+.actor{
+    position: relative;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.screenplay{
+    position: relative;
+    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/7dd56142-b144-461e-9b9d-40d1eae75e99_alta-libre-aspect-ratio_default_0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture{
+    position: relative;
+    background-image: url(https://i.ytimg.com/vi/zOc-tM-8J1Y/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.direction{
+    position: relative;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_2014.jpg);
+    background-size: cover;
+    background-position: center;
 }

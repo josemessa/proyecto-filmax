@@ -1,0 +1,22 @@
+.news-header{
+    display: flex;
+    position: relative;
+    height: 170px;
+    background-color: var(--color-header);
+}
+.news-header article{
+  display: flex;
+    margin-inline: auto;
+    font-weight: var(--weight-title);
+    color: var(--color-title);
+    font-size: 40px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.news-header h1::after{
+    display: flex;
+    content: "";
+    width: 110.31px;
+    height: 1px;
+    background-color: red;
+}
