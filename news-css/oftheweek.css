@@ -1,0 +1,101 @@
+.bg-trailer {
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-inline: auto;
+}
+.film-cast{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+}
+.filmofweek {
+position: absolute;
+  top: 0;
+  padding-top: 40px;
+  margin-inline: auto;
+}
+.filmofweek p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-quote);
+    color: grey;
+    margin-inline: auto;
+}
+.filmofweek h2::after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+}
+.filmofweek h2::before {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+}
+.filmofweek h2 {
+    display: flex;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    
+    align-items: center;
+    gap: 15px;
+}
+.trailer {
+  position:relative;
+  width: 600px;
+  height: 400px;
+  border-radius: 5%;
+}
+.cast article{
+    display: flex;
+}
+aside{
+    padding-left: 50px;
+}
+.cast article div{
+    margin: 5px ;
+    height: 90px;
+    width: 90px;
+}
+.neo > div{
+    background-image: url(https://media.gq.com.mx/photos/5f57d52d4464f9b88fb26729/4:3/w_2664,h_1998,c_limit/Keanu-Reeves.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+article.trinity > div{
+    background-image: url(https://www.mytalk1071.com/wp-content/uploads/2021/12/CMG708d514a-4c79-4e6f-90a8-c8bd7b0676ca.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+article.morfeo> div{
+    background-image: url(https://goldenglobes.com/wp-content/uploads/2023/10/laurence_fishburne-2065828.jpg?w=600);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+article.smith> div{
+    background-image: url(https://es.web.img3.acsta.net/pictures/16/07/07/10/51/355496.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.cast article p{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 700;
+}
+aside  article p:nth-child(3){
+    font-family: var(--font-quote);
+    font-size: 15px;
+}
