@@ -7,40 +7,45 @@
     margin-inline: auto;
     background-color: white;
 }
-.awards > article{
-    height: 150px;
-    padding-top: 5%;
-}
-.awards > article p{
-    font-family: var( --font-quote);
+.filmax-awards{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 110px;
+    left: 15px;
+  }
+  .filmax-awards p{
+    font-family: var(--font-quote);
     color: grey;
-    padding-top: 40px;
-}
-.awards article h2{
-    position:relative;
-    top: 25px;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-.awards article div{
+  }
+  .filmax-awards div {
     height: 1.5px;
     width: 55px;
     background-color: red;
-}
+    margin-bottom: 25px;
+  }
+  .filmax-awards h2 {
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  /* grid */
 .categories{
     display: grid;
+    position: absolute;
+    top: 50%;
     max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 400px;
-    margin-top: 5%;
     gap: 20px
 }
 .categories p{
+    z-index: 2;
     font-weight: 400;
     color: var(--color-title);
 }
 .categories h3{
+    z-index: 2;
     font-weight: var(--weight-title);
     color: var(--color-title);
     font-size: 25px;
@@ -57,7 +62,6 @@
     background-size: cover;
     background-position: center;
 }
-
 .screenplay{
     position: relative;
     background-image: url(https://estaticos-cdn.prensaiberica.es/clip/7dd56142-b144-461e-9b9d-40d1eae75e99_alta-libre-aspect-ratio_default_0.jpg);
@@ -76,3 +80,52 @@
     background-size: cover;
     background-position: center;
 }
+.direction::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(1deg, black, transparent) ;
+}
+.direction:hover::before{
+    opacity: 0;
+ }
+.actor::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent) ;
+}
+    .actor:hover::before{
+    opacity: 0;
+    }
+  .screenplay::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent) ;
+  }
+  .screenplay:hover::before{
+    opacity: 0;
+ }
+  .picture::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent) ;
+  }
+  .picture:hover::before{
+    opacity: 0;
+ }
+
