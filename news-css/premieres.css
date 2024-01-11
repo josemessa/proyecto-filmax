@@ -125,9 +125,9 @@
   font-size: 40px;
   transition: all;
   transition-duration: 1s;
+  
 
 }
 .dark-hover:hover .hidden-text{
   opacity: 1;
-
 }

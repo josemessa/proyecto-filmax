@@ -23,7 +23,7 @@
     font-weight: var(--weight-title);
     color:#f8b350;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 18px;
 }
 .bg-interview article p{
     font-family: var(--font-quote);
