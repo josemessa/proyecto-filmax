@@ -52,14 +52,15 @@
     gap: 20px;
   }
   .aquaman{
+    position:relative;
     grid-column: 3 / 4;
     grid-row: 1/3;
     background-image: url(https://pics.filmaffinity.com/Aquaman_y_el_reino_perdido-274178849-large.jpg);
     background-size: cover;
     background-position: center;
 }
-
   .wonka{
+    position:relative;
     grid-column: 4/5 ;
     grid-row: 1/3;
     background-image: url(https://es.web.img3.acsta.net/pictures/23/11/14/17/56/0356452.jpg);
@@ -67,21 +68,25 @@
     background-position: center;
 }
 .beekeeper{
+  position:relative;
     background-image: url(https://pics.filmaffinity.com/Beekeeper_El_protector-634565179-large.jpg);
     background-size: cover;
     background-position: bottom;
 }
 .wish{
+  position:relative;
     background-size: cover;
     background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_c9119457.jpeg?region=0,0,540,810);
     background-position: center;
 }
 .bricklayer{
+  position:relative;
     background-size: cover;
     background-image: url(https://pics.filmaffinity.com/The_Bricklayer-531058472-large.jpg);
     background-position:top;
 }
 .napoleon{
+    position:relative;
     background-size: cover;
     background-image: url(https://es.web.img2.acsta.net/pictures/23/10/18/15/26/3220184.jpg);
     background-position:top;
@@ -94,4 +99,30 @@
   bottom: 0;
   left: 0;
   background: linear-gradient(1deg, black, transparent) ;
+}
+.dark-hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+}
+.dark-hover:hover{
+  opacity: 0.7;
+}
+.hidden-text{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  color: white;
+  font-weight:var(--weight-title);
+  font-size: 20px;
+
+}
+.dark-hover:hover .hidden-text{
+  opacity: 1;
+
 }
