@@ -4,11 +4,10 @@
 .latest-news {
   height: 1050px;
   max-width: 1200px;
-  display:flex;
+  display: flex;
   background-color: white;
   position: relative;
- margin-inline: auto;
-  
+  margin-inline: auto;
 }
 .empty-space {
   position: absolute;
@@ -21,22 +20,22 @@
   position: absolute;
   top: 120px;
   left: 15px;
-}
-.latest-header p{
-  font-family: var(--font-quote);
-  color: grey;
-}
-.latest-header div {
-  height: 1.5px;
-  width: 55px;
-  background-color: red;
-  margin-bottom: 25px;
-}
-.latest-header h2 {
-  font-weight: var(--weight-title);
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-bottom: 20px;
+  p {
+    font-family: var(--font-quote);
+    color: grey;
+  }
+  div {
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+    margin-bottom: 25px;
+  }
+  h2 {
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 }
 /* GRID */
 .grid-news {
@@ -46,7 +45,7 @@
   left: 50%;
   grid-template-columns: repeat(4, 300px);
   grid-template-rows: repeat(2, 300px);
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 .art-1 {
   position: relative;
@@ -57,15 +56,15 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: 15px;
-}
-.art-1::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
 }
 .art-2 {
   position: relative;
@@ -74,15 +73,15 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: 15px;
-}
-.art-2::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
 }
 .art-3 {
   position: relative;
@@ -90,15 +89,15 @@
   background-size: cover;
   background-position: center;
   margin: 15px;
-}
-.art-3::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
 }
 .art-4 {
   position: relative;
@@ -107,15 +106,15 @@
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-6-copyright-760x507.jpg);
   background-size: cover;
   background-position: center;
-}
-.art-4::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
 }
 .browse {
   color: white;
@@ -128,13 +127,14 @@
   bottom: 110px;
   position: absolute;
   padding: 15px 40px;
-  left: 50%; 
-  transform: translateX(-50%)
+  left: 50%;
+  transform: translateX(-50%);
+
+  &:hover {
+    background-color: rgb(164, 3, 3);
+  }
 }
-.browse:hover{
-  background-color: rgb(164, 3, 3);
-}
-.grid-news article div{
+.grid-news article div {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -143,34 +143,34 @@
   gap: 12px;
 }
 
-.grid-news article div :nth-child(1){
+.grid-news article div :nth-child(1) {
   font-weight: var(--weight-title);
-  color:#f8b350;
+  color: #f8b350;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.grid-news article div :nth-child(2){
+.grid-news article div :nth-child(2) {
   font-weight: var(--weight-title);
   color: var(--color-title);
   text-transform: uppercase;
   font-size: 30px;
 }
-.grid-news article div :nth-child(3){
+.grid-news article div :nth-child(3) {
   color: lightgrey;
   text-transform: uppercase;
-  font-size: 12PX;
+  font-size: 12px;
 }
-.grid-news article div :nth-child(3):hover{
+.grid-news article div :nth-child(3):hover {
   color: white;
 }
 
-.art-2  div  a:nth-child(2){
-font-size: 17px;
-}
-.art-3  div  a:nth-child(2){
+.art-2 div a:nth-child(2) {
   font-size: 17px;
-  }
-.art-4 div  a:nth-child(2){
-    font-size: 20px;
-    }
+}
+.art-3 div a:nth-child(2) {
+  font-size: 17px;
+}
+.art-4 div a:nth-child(2) {
+  font-size: 20px;
+}
