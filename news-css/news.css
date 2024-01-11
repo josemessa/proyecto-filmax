@@ -28,3 +28,17 @@
     height: 1px;
   background-color: grey;
 }
+.anchors{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    font-family: var(--font-quote);
+  }
+  .anchors div{
+    width: 5px;
+    height: 5px;
+   background-color: red;
+    border-radius: 50%;
+  }
