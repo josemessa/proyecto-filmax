@@ -15,58 +15,58 @@
   justify-content: end;
   align-items: center;
 }
-.samurai-data {
+ .samurai-data{
   width: 50%;
-}
-.samurai-data div div {
-  height: 1.5px;
-  width: 55px;
-  background-color: red;
-  margin-bottom: 25px;
-}
-.samurai-data div p {
-  font-weight: var(--weight-title);
-  text-transform: uppercase;
-  color: grey;
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-.samurai-data div h3 {
-  font-weight: var(--weight-title);
-  color: #1a1d24;
-  text-transform: uppercase;
-  font-size: 44px;
-  letter-spacing: -0.3px;
-  margin-bottom: 30px;
-}
-
-.samurai-data :nth-child(2) > span {
-  font-weight: var(--weight-title);
-  text-transform: uppercase;
-  color: #1a1d24;
-  margin-right: 25px;
-  font-size: 14px;
-}
-.samurai-data p {
-  margin-top: 26px;
-  margin-bottom: 25px;
-  color: grey;
-  font-weight: 300;
-}
-.samurai-data footer::before {
-  content: ">";
-  color: red;
-}
-.samurai-data footer a {
-  margin-right: 30px;
-  font-weight: var(--weight-title);
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.samurai-data footer a:hover{
-  color: rgb(175, 4, 4) ;
-}
-.samurai-data footer :first-child {
-  color: red;
+  div div {
+   height: 1.5px;
+   width: 55px;
+   background-color: red;
+   margin-bottom: 25px;
+ }
+  div p {
+   font-weight: var(--weight-title);
+   text-transform: uppercase;
+   color: grey;
+   font-size: 14px;
+   margin-bottom: 15px;
+ }
+  div h3 {
+   font-weight: var(--weight-title);
+   color: #1a1d24;
+   text-transform: uppercase;
+   font-size: 44px;
+   letter-spacing: -0.3px;
+   margin-bottom: 30px;
+ }
+ 
+  :nth-child(2) > span {
+   font-weight: var(--weight-title);
+   text-transform: uppercase;
+   color: #1a1d24;
+   margin-right: 25px;
+   font-size: 14px;
+ }
+  p {
+   margin-top: 26px;
+   margin-bottom: 25px;
+   color: grey;
+   font-weight: 300;
+ }
+  footer::before {
+   content: ">";
+   color: red;
+ }
+  footer a {
+   margin-right: 30px;
+   font-weight: var(--weight-title);
+   text-transform: uppercase;
+   font-size: 14px;
+ }
+ 
+  footer a:hover{
+   color: rgb(175, 4, 4) ;
+ }
+  footer :first-child {
+   color: red;
+ }
 }

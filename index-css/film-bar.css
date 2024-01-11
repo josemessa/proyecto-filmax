@@ -3,45 +3,44 @@
 .film-bar {
   display: flex;
   position: relative;
-}
-.film-bar article {
-  position: relative;
-  width: 25%;
-}
-.film-bar article::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black  0.5%, transparent 60%) ;
- 
+  article {
+    position: relative;
+    width: 25%;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black 0.5%, transparent 60%);
+    }
+  }
 }
 .title-gender {
   position: absolute;
   bottom: 20%;
   left: 25px;
-}
-.title-gender h3 {
-  font-size: 25px;
-  font-weight: 700;
-  color: white;
-  text-transform: uppercase;
-}
-.title-gender h3:hover{
-  color: lightgray;
-}
-.title-gender a {
-  font-size: 14px;
-  color: grey;
-}
-.title-gender :nth-child(3)::before{
-  content: "/";
-  padding: 5px;
-}
-.title-gender a:hover{
-  color: white;
+  h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+  }
+  h3:hover {
+    color: lightgray;
+  }
+  a {
+    font-size: 14px;
+    color: grey;
+  }
+  :nth-child(3)::before {
+    content: "/";
+    padding: 5px;
+  }
+  a:hover {
+    color: white;
+  }
 }
 .trailer-info {
   position: absolute;
@@ -54,4 +53,3 @@
   font-size: 14px;
   gap: 25px;
 }
-

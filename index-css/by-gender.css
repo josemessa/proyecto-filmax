@@ -1,55 +1,53 @@
 /*by-gender(films bar sorted by genders)*/
 .by-gender {
-  top: -125px;
-}
-.by-gender ul {
-  display: flex;
-  margin-bottom: 50px;
-  text-transform: uppercase;
-  font-weight: var(--weight-title);
-  color: rgb(145, 143, 143);
-  gap: 10px;
-}
-.by-gender ul li:first-child{
-  color: white;
-}
-.by-gender ul li:hover{
-  color: white;
-}
-.by-gender {
   max-width: 1200px;
   margin-inline: auto;
   display: flex;
   position: relative;
   gap: 10px;
-}
+  top: -125px;
 
-.by-gender article {
-  position: relative;
-}
-.by-gender article::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black 0.5%, transparent 60%) ;
-}
-.by-gender div {
-  position: absolute;
-  bottom: 15px;
-  left: 10px;
-}
-.by-gender div h3 {
-  text-transform: uppercase;
-  font-weight: var(--weight-title);
-  color: var(--color-title);
-}
-.by-gender div h3:hover{
-  color: grey;
-}
-.by-gender div a {
-  color: white;
-  font-size: 10px;
+  ul {
+    display: flex;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: var(--weight-title);
+    color: rgb(145, 143, 143);
+    gap: 10px;
+    li:first-child {
+     color: white;
+   }
+    li:hover {
+     color: white;
+   }
+  }
+  article {
+    position: relative;
+  }
+  article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black 0.5%, transparent 60%);
+  }
+  div {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    h3 {
+     text-transform: uppercase;
+     font-weight: var(--weight-title);
+     color: var(--color-title);
+   }
+    h3:hover {
+     color: grey;
+   }
+    a {
+     color: white;
+     font-size: 10px;
+   }
+  }
 }

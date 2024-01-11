@@ -18,7 +18,7 @@
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
-  box-shadow: -3px 3px 2px grey;
+  box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
 }
 .buy-theme svg{
@@ -37,7 +37,7 @@
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
-  box-shadow: -3px 3px 2px grey;
+  box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
 }
 .best-sellers:hover {
@@ -56,7 +56,7 @@
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
-  box-shadow: -3px 3px 2px grey;
+  box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
 }
 .hide-panel svg{
