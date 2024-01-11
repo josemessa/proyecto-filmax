@@ -1,14 +1,21 @@
+.bg-quotes{
+  background-color: #e0011a;
+}
 .quotes {
   position: relative;
   height: 500px;
+  max-width: 1200px;
   display: flex;
   background-color: #e0011a;
+  margin-inline: auto;
+  overflow: hidden;
 }
 .quotes article {
-  width: 25%;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 .quotes article div img {
   display: flex;

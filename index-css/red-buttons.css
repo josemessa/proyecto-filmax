@@ -18,6 +18,7 @@
     background-color: red;
     align-items: center;
     justify-content: center;
+    box-shadow: -2px 2px grey;
 }
 .best-sellers{
     position:relative;
@@ -28,6 +29,7 @@
     background-color: red;
     align-items: center;
     justify-content: center;
+    box-shadow: -2px 2px  grey;
    
 }
 .hide-panel{
@@ -39,6 +41,7 @@
     background-color: red;
     align-items: center;
     justify-content: center;
+    box-shadow: -2px 2px  grey;
    }
 
 .scroll-to-start{
