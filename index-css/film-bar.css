@@ -27,12 +27,18 @@
     color: white;
     text-transform: uppercase;
   }
-  h3:hover {
-    color: lightgray;
+  h3{
+    transition: all;
+   transition-duration: 0.5s;
+   &:hover {
+     color: lightgray;
+   }
   }
   a {
     font-size: 14px;
     color: grey;
+    transition: all;
+   transition-duration: 0.5s;
   }
   :nth-child(3)::before {
     content: "/";

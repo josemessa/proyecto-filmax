@@ -52,7 +52,8 @@
    color: grey;
    font-weight: 300;
  }
-  footer::before {
+ 
+ footer::before {
    content: ">";
    color: red;
  }
@@ -61,11 +62,13 @@
    font-weight: var(--weight-title);
    text-transform: uppercase;
    font-size: 14px;
+   transition: all;
+   transition-duration: 0.5s;
+   &:hover{
+      color: rgb(175, 4, 4) ;
+    }
  }
  
-  footer a:hover{
-   color: rgb(175, 4, 4) ;
- }
   footer :first-child {
    color: red;
  }

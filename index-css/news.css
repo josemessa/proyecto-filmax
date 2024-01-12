@@ -100,6 +100,10 @@ aside {
     color: red;
     padding-left: 20px;
   }
+  a{
+   transition: all;
+   transition-duration: 0.5s;
+  }
   a:hover {
    color: #e0041d;
  }
