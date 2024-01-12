@@ -21,14 +21,14 @@
   font-size: 14px;
   font-weight: var(--weight-title);
   svg {
-   width: 20px;
-   height: 20px;
-   fill: white;
-   .social-menu {
-     display: flex;
-     align-items: center;
-}
-}
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  .social-menu {
+    display: flex;
+    align-items: center;
+  }
 }
 .list {
   display: flex;
@@ -36,21 +36,36 @@
   align-items: center;
   justify-content: space-between;
   fill: white;
+  span {
+    font-weight: 100;
+    color: grey;
+  }
 }
-.twitter svg:hover{
-  fill:#1da1f3;
+.twitter svg {
+  transition: all;
+  transition-duration: 0.5s;
+  &:hover {
+    fill: #1da1f3;
+  }
 }
-.facebook svg:hover{
-  fill:#3a559f;
+.facebook svg {
+  transition: all;
+  transition-duration: 0.5s;
+  &:hover {
+    fill: #3a559f;
+  }
 }
-.instagram svg:hover{
-  fill:#ce2e92;
+.instagram svg {
+  transition: all;
+  transition-duration: 0.5s;
+  &:hover {
+    fill: #ce2e92;
+  }
 }
-.youtube svg:hover{
-  fill:#e0041d;
-}
-
-.list span{
-  font-weight: 100;
-  color: grey;
+.youtube svg {
+  transition: all;
+  transition-duration: 0.5s;
+  &:hover {
+    fill: #e0041d;
+  }
 }

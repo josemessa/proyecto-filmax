@@ -6,56 +6,77 @@
   article {
     position: relative;
     width: 25%;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(1deg, black 0.5%, transparent 60%);
-    }
+    height: 500px;
   }
+
 }
-.title-gender {
+.inferno{
+
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.bandofbrothers{
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover ;
+}
+.piratesbay{
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover ;
+}
+.gladiator{
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover ;
+}
+.text-box{
   position: absolute;
-  bottom: 20%;
-  left: 25px;
+  bottom: -17px;
+  left: 20px;
+  color: white;
+  transition: all;
+  transition-duration: 0.5s;
+    &:hover{
+      transform: translateY(-40px) ;
+    }
+
   h3 {
     font-size: 25px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
-  }
-  h3{
     transition: all;
-   transition-duration: 0.5s;
-   &:hover {
-     color: lightgray;
-   }
-  }
-  a {
-    font-size: 14px;
-    color: grey;
-    transition: all;
-   transition-duration: 0.5s;
-  }
-  :nth-child(3)::before {
-    content: "/";
-    padding: 5px;
-  }
-  a:hover {
-    color: white;
+    transition-duration: 0.5s;
+    &:hover {
+      color: lightgray;
   }
 }
-.trailer-info {
-  position: absolute;
-  display: flex;
-  bottom: 5%;
-  left: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
+}
+.title-gender a{
+  color: grey;
+  transition: all;
+    transition-duration: 0.5s;
+&:nth-child(3)::before{
+  content: "/";
+}
+ &:hover{
   color: white;
-  font-size: 14px;
-  gap: 25px;
+ }
+}
+.trailer-info{
+  opacity: 0;
+  display: flex;
+  margin-top: 40px;
+ font-weight: var(--weight-title);
+ a{padding-left: 20px;
+  gap: 20px;
+ }
+}
+.text-box:hover .trailer-info{
+  opacity: 1;
+  transition: all;
+  transition-duration: 1s;
 }

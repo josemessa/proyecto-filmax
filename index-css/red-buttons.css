@@ -14,7 +14,7 @@
   display: flex;
   width: 70px;
   height: 60px;
-  fill: rgb(91, 0, 0);
+  fill:black;
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@
   display: flex;
   width: 70px;
   height: 60px;
-  fill: rgb(91, 0, 0);
+  fill: black;
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
@@ -52,7 +52,7 @@
   display: flex;
   width: 70px;
   height: 60px;
-  fill: rgb(91, 0, 0);
+  fill: black;
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
@@ -79,4 +79,7 @@
   justify-content: center;
   top: 87%;
   left: 95%;
+  &:hover{
+    fill: #e0011a;
+  }
 }
