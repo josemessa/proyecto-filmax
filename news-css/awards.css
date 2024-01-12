@@ -1,143 +1,152 @@
-.bg-awards{
+.bg-awards {
   position: relative;
-    background-color:white;
-    &::before{
-      content:"";
+  background-color: white;
+  &::before {
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(1deg, black, transparent 30%) ;
-    }
-}
-.awards{
-    height: 700px;
-    max-width: 1200px;
-    margin-inline: auto;
-    background-color: white;
-}
-.filmax-awards{
-    padding-top: 30px;
-    padding-bottom: 50px;
-    height: 110px;
-    left: 15px;
-    p{
-      font-family: var(--font-quote);
-      color: grey;
-    }
-    div {
-      height: 1.5px;
-      width: 55px;
-      background-color: red;
-      margin-bottom: 25px;
-    }
-    h2 {
-      font-weight: var(--weight-title);
-      text-transform: uppercase;
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
+    background: linear-gradient(1deg, black, transparent 30%);
   }
-  /* grid */
-.categories{
-    display: grid;
-    position: absolute;
-    top: 30%;
-    max-width: 1200px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 400px;
-    gap: 20px
 }
-.categories p{
-    z-index: 2;
-    font-weight: 400;
-    color: var(--color-title);
+.awards {
+  height: 700px;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: white;
 }
-.categories h3{
-    z-index: 2;
+.filmax-awards {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 110px;
+  left: 15px;
+  p {
+    font-family: var(--font-quote);
+    color: grey;
+  }
+  div {
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+    margin-bottom: 25px;
+  }
+  h2 {
     font-weight: var(--weight-title);
-    color: var(--color-title);
-    font-size: 25px;
-}
-.categories article{
-    display:flex;
-    flex-direction: column;
-    padding: 15px;
-    justify-content: end;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
-  .actor{
-    position: relative;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg);
-    background-size: cover;
-    background-position: center;
-    &::before{
-        content:"";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: linear-gradient(1deg, black, transparent) ;
-    }
-        &:hover::before{
-        opacity: 0;
-        }
 }
-.screenplay{
-    position: relative;
-    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/7dd56142-b144-461e-9b9d-40d1eae75e99_alta-libre-aspect-ratio_default_0.jpg);
-    background-size: cover;
-    background-position: center;
-    &::before{
-      content:"";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(1deg, black, transparent) ;
-    }
-    &:hover::before{
-      opacity: 0;
-   }
+/* grid */
+.categories {
+  display: grid;
+  position: absolute;
+  top: 30%;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 400px;
+  gap: 20px;
 }
-.picture{
-    position: relative;
-    background-image: url(https://i.ytimg.com/vi/zOc-tM-8J1Y/maxresdefault.jpg);
-    background-size: cover;
-    background-position: center;
-    &::before{
-      content:"";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(1deg, black, transparent) ;
-    }
-  &:hover::before{
-      opacity: 0;
-   }
+.categories p {
+  z-index: 2;
+  font-weight: 400;
+  color: var(--color-title);
 }
-.direction{
-    position: relative;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_2014.jpg);
-    background-size: cover;
-    background-position: center;
-    &::before{
-      content:"";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(1deg, black, transparent) ;
-    }
-    &:hover::before{
-        opacity: 0;
-     }
+.categories h3 {
+  z-index: 2;
+  font-weight: var(--weight-title);
+  color: var(--color-title);
+  font-size: 25px;
 }
+.categories article {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: end;
+}
+.actor {
+  position: relative;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    transition: all;
+    transition-duration: 0.5s;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
+  &:hover::before {
  
-
-
+    opacity: 0;
+  }
+}
+.screenplay {
+  position: relative;
+  background-image: url(https://estaticos-cdn.prensaiberica.es/clip/7dd56142-b144-461e-9b9d-40d1eae75e99_alta-libre-aspect-ratio_default_0.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all;
+  transition-duration: 0.5s;
+  &::before {
+    transition: all;
+    transition-duration: 0.5s;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
+  &:hover::before {
+    opacity: 0;
+  }
+}
+.picture {
+  position: relative;
+  background-image: url(https://i.ytimg.com/vi/zOc-tM-8J1Y/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  &::before {
+    transition: all;
+    transition-duration: 0.5s;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
+  &:hover::before {
+    opacity: 0;
+  }
+}
+.direction {
+  position: relative;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_2014.jpg);
+  background-size: cover;
+  background-position: center;
+  &::before {
+    transition: all;
+    transition-duration: 0.5s;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
+  &:hover::before {
+    opacity: 0;
+  }
+}

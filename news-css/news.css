@@ -41,4 +41,9 @@
      background-color: red;
       border-radius: 50%;
     }
+    li:hover{
+      transition: all;
+      transition-duration: 0.5s;
+      color: white;
+    }
   }
