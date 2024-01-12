@@ -97,16 +97,17 @@
 }
 
 
-.ul-line::after{
-    display: flex;
-    content: "";
-    width: 20px;
-    height: 1px;
-    background-color: red;
-}
+
 .ul-line{
     align-items: center;
     gap: 10px;
+    &::after{
+      display: flex;
+      content: "";
+      width: 20px;
+      height: 1px;
+      background-color: red;
+  }
 }
 
 .newsletter::after{

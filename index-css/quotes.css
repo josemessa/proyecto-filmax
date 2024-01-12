@@ -14,38 +14,38 @@
     display: flex;
     align-items: center;
   }
-  article div img {
-    display: flex;
-    margin-inline: auto;
-    margin-bottom: 30px;
-    border-radius: 50%;
-  }
-
+  
   article div {
     color: white;
-  }
-  article div blockquote p {
-    width: 95%;
-    margin-inline: auto;
-    margin-bottom: 25px;
-    font-family: var(--font-quote);
-    font-size: 19.5px;
-  }
-
-  article div blockquote > * {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  article div blockquote h4 {
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  article div blockquote span {
-    font-size: 12px;
-    font-weight: 100;
+    img {
+     display: flex;
+     margin-inline: auto;
+     margin-bottom: 30px;
+     border-radius: 50%;
+   }
+    blockquote p {
+     width: 95%;
+     margin-inline: auto;
+     margin-bottom: 25px;
+     font-family: var(--font-quote);
+     font-size: 19.5px;
+   }
+ 
+    blockquote > * {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 10px;
+   }
+    blockquote h4 {
+     font-size: 13px;
+     font-weight: 700;
+     text-transform: uppercase;
+   }
+    blockquote span {
+     font-size: 12px;
+     font-weight: 100;
+   }
   }
 }
 .quote-symbol {

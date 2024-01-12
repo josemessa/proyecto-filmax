@@ -23,15 +23,15 @@
   }
   article {
     position: relative;
-  }
-  article::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(1deg, black 0.5%, transparent 60%);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black 0.5%, transparent 60%);
+    }
   }
   div {
     position: absolute;

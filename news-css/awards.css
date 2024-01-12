@@ -1,15 +1,15 @@
 .bg-awards{
   position: relative;
     background-color:white;
-}
-.bg-awards::before{
-  content:"";
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background: linear-gradient(1deg, black, transparent 30%) ;
+    &::before{
+      content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent 30%) ;
+    }
 }
 .awards{
     height: 700px;
@@ -22,22 +22,22 @@ background: linear-gradient(1deg, black, transparent 30%) ;
     padding-bottom: 50px;
     height: 110px;
     left: 15px;
-  }
-  .filmax-awards p{
-    font-family: var(--font-quote);
-    color: grey;
-  }
-  .filmax-awards div {
-    height: 1.5px;
-    width: 55px;
-    background-color: red;
-    margin-bottom: 25px;
-  }
-  .filmax-awards h2 {
-    font-weight: var(--weight-title);
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-bottom: 20px;
+    p{
+      font-family: var(--font-quote);
+      color: grey;
+    }
+    div {
+      height: 1.5px;
+      width: 55px;
+      background-color: red;
+      margin-bottom: 25px;
+    }
+    h2 {
+      font-weight: var(--weight-title);
+      text-transform: uppercase;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
   }
   /* grid */
 .categories{
@@ -65,77 +65,79 @@ background: linear-gradient(1deg, black, transparent 30%) ;
     flex-direction: column;
     padding: 15px;
     justify-content: end;
-}
-.actor{
+  }
+  .actor{
     position: relative;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg);
     background-size: cover;
     background-position: center;
+    &::before{
+        content:"";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(1deg, black, transparent) ;
+    }
+        &:hover::before{
+        opacity: 0;
+        }
 }
 .screenplay{
     position: relative;
     background-image: url(https://estaticos-cdn.prensaiberica.es/clip/7dd56142-b144-461e-9b9d-40d1eae75e99_alta-libre-aspect-ratio_default_0.jpg);
     background-size: cover;
     background-position: center;
+    &::before{
+      content:"";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black, transparent) ;
+    }
+    &:hover::before{
+      opacity: 0;
+   }
 }
 .picture{
     position: relative;
     background-image: url(https://i.ytimg.com/vi/zOc-tM-8J1Y/maxresdefault.jpg);
     background-size: cover;
     background-position: center;
+    &::before{
+      content:"";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black, transparent) ;
+    }
+  &:hover::before{
+      opacity: 0;
+   }
 }
 .direction{
     position: relative;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_2014.jpg);
     background-size: cover;
     background-position: center;
-}
-.direction::before{
-  content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
-}
-.direction:hover::before{
-    opacity: 0;
- }
-.actor::before{
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(1deg, black, transparent) ;
-}
-    .actor:hover::before{
-    opacity: 0;
+    &::before{
+      content:"";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black, transparent) ;
     }
-  .screenplay::before{
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(1deg, black, transparent) ;
-  }
-  .screenplay:hover::before{
-    opacity: 0;
- }
-  .picture::before{
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(1deg, black, transparent) ;
-  }
-  .picture:hover::before{
-    opacity: 0;
- }
+    &:hover::before{
+        opacity: 0;
+     }
+}
+ 
+
 

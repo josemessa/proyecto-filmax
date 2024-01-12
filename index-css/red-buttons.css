@@ -20,13 +20,13 @@
   justify-content: center;
   box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
-}
-.buy-theme svg{
-    position: absolute;
-    left: 25%;
-}
-.buy-theme:hover {
-  transform: translateX(-15%);
+  svg{
+     position: absolute;
+     left: 25%;
+ }
+ &:hover {
+   transform: translateX(-15%);
+ }
 }
 .best-sellers {
   position: relative;
@@ -39,13 +39,13 @@
   justify-content: center;
   box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
-}
-.best-sellers:hover {
-  transform: translateX(-15%);
-}
-.best-sellers svg{
-    position: absolute;
-    left: 25%;
+  &:hover {
+    transform: translateX(-15%);
+  }
+   svg{
+      position: absolute;
+      left: 25%;
+  }
 }
 .hide-panel {
   position: relative;
@@ -58,13 +58,13 @@
   justify-content: center;
   box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
-}
-.hide-panel svg{
-    position: absolute;
-    left: 25%;
-}
-.hide-panel:hover {
-  transform: translateX(-15%);
+  svg{
+     position: absolute;
+     left: 25%;
+ }
+ &:hover {
+   transform: translateX(-15%);
+ }
 }
 
 .scroll-to-start {
