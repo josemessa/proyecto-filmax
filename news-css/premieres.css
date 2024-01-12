@@ -1,15 +1,15 @@
 .bg-premieres{
     position:relative;
     background-color: white;
-}
-.bg-premieres::before{
-    content:"";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+    &::before{
+        content:"";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(1deg, black, transparent) ;
+    }
 }
 .premieres{
     position: relative;
@@ -110,9 +110,12 @@
   opacity: 0;
   transition: all;
   transition-duration: 1s;
-}
-.dark-hover:hover{
-  opacity: 0.7;
+  &:hover{
+    opacity: 0.7;
+  }
+  &:hover .hidden-text{
+    opacity: 1;
+  }
 }
 .hidden-text{
   position: absolute;
@@ -125,9 +128,4 @@
   font-size: 40px;
   transition: all;
   transition-duration: 1s;
-  
-
-}
-.dark-hover:hover .hidden-text{
-  opacity: 1;
 }
