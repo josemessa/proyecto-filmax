@@ -42,8 +42,8 @@
 /* grid */
 .categories {
   display: grid;
-  position: absolute;
-  top: 30%;
+  position: relative;
+  top: 16%;
   max-width: 1200px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 400px;
