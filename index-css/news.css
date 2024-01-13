@@ -93,18 +93,14 @@ aside {
   padding: 25px 0 0 25px;
   max-width: 35%;
   padding-bottom: 200px;
-  
-  a::after {
-    content: "->";
-    display: inline-flex;
-    color: red;
-    padding-left: 20px;
-  }
-  a{
-   transition: all;
+  a{    
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    transition: all;
    transition-duration: 0.5s;
+   &:hover {
+    color: #e0041d;
   }
-  a:hover {
-   color: #e0041d;
- }
-}
+  }
+} 

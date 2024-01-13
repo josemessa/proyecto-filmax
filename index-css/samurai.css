@@ -78,10 +78,11 @@
       color: black;
     }
     &:hover {
-      color: rgb(95, 11, 11);
+      color: rgb(175, 4, 4);
       svg {
-
-        fill: rgb(95, 11, 11);
+        transition: all;
+        transition-duration: 0.5s;
+        fill: rgb(175, 4, 4);
       }
     }
   }
