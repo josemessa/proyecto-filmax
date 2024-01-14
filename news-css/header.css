@@ -95,3 +95,9 @@
     fill: #e0041d;
   }
 }
+.begin{
+  display: flex;
+   height: 50px;
+   width: 100%;
+   background-color: #1a1d24;
+}
