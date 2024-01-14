@@ -32,3 +32,19 @@
        text-transform: uppercase;
    }
 }
+.biography{
+  position: absolute;
+  right: 0;
+  gap: 20px;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: var(--weight-title);
+  transition: all;
+  transition-duration: 0.5s;
+  &:hover{
+    color: red;
+  }
+  a{
+   padding-right: 10px;
+  }
+}
