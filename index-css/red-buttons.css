@@ -83,3 +83,13 @@
     fill: #e0011a;
   }
 }
+
+/* media queries */
+@media screen and (max-width: 740px){
+  .red-buttons{
+    display: none;
+  }
+  .scroll-to-start{
+    display: none;
+  }
+}
