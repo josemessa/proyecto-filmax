@@ -64,17 +64,20 @@
 }
 
 /*  media queries */
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
   .bg-quotes{
     height: fit-content;
-   
+    
   }
   .quotes{
+    margin-inline: auto;
     display: block;
     overflow: visible;
     padding-top: 30px;
     height: 100%;
     article{      
+      display: flex;
+      justify-content: center;
       width: 100%;
     }
   }

@@ -93,7 +93,7 @@
 
 /* media queries */
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
   .bg-samurai{
     position: relative;
     height: 650px;

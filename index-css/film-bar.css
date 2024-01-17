@@ -186,9 +186,11 @@
 /* media queries */
 
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
   .film-bar{
     flex-direction: column;
+    width: 100%;
+    height: 100%;
     article{
       width: 100%;
     }

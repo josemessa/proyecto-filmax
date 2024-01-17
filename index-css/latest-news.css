@@ -173,10 +173,10 @@
 
 /* media queries */
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .bg-news {
     position: relative;
-    height: fit-content;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -186,7 +186,7 @@
     flex-direction: column;
     width: 100%;
     article {
-      height: 200px;
+      height: 250px;
     }
   }
   article div:nth-child(2) > a:nth-child(2) {
@@ -200,10 +200,9 @@
   }
   .browse {
     position: absolute;
-    width: 65%;
     bottom: 2%;
   }
   .latest-news {
-    height: 1200px;
+    height: 1500px;
   }
 }
