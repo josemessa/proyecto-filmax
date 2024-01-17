@@ -1,5 +1,5 @@
 .bg-trailer {
-background-color: white;
+  background-color: white;
   position: relative;
   height: 800px;
   display: flex;
@@ -10,42 +10,47 @@ background-color: white;
   background-repeat: no-repeat;
   margin-inline: auto;
 }
-.film-cast {
-  display: flex;
-  position: absolute;
-  max-width: 1200px;
-  bottom: 10%;
-}
 .filmofweek {
   position: absolute;
   top: 0;
-  left: 11%;
+max-width: 1200px;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  img{
+    height: 60px;
+    margin-bottom: 15px;
+  }
   p {
    display: flex;
    justify-content: center;
    font-family: var(--font-quote);
    color: rgb(0, 0, 0);
    margin-inline: auto;
+   padding-bottom: 15px;
  }
-  h2::after {
-   content: "";
-   height: 1.5px;
-   width: 55px;
-   background-color: red;
- }
-  h2 {
+ h2 {
    display: flex;
    font-weight: var(--weight-title);
    text-transform: uppercase;
    font-size: 40px;
    align-items: center;
    gap: 15px;
+   &::after {
+    content: "";
+    height: 1.5px;
+    width: 55px;
+    background-color: red;
+  }
  }
   
+}
+.film-cast {
+  display: flex;
+  position: absolute;
+  max-width: 1200px;
+  bottom: 10%;
 }
 .trailer {
   position: relative;
@@ -124,19 +129,38 @@ aside {
   }
 }
 
-.sinopsis{
-  position: absolute;
-  font-size: 20px;
-  top: 19%;
-  left: 50%;
-  width: 600px;
-  display: flex;
-  gap: 60px;
-  align-items: center;
-  
-}
-.directed-by{
-  position: absolute;
-  bottom: 3%;
-  left: 11%;
+
+@media screen and (max-width: 768px){
+  .bg-trailer{
+    height: 1200px;
+  }
+
+  .filmofweek{
+    max-width: 90%;     
+  }
+  .film-cast{
+    gap: 40px;
+    flex-direction: column;
+   margin-inline: auto;
+   bottom: 15px;
+    iframe{
+      margin-inline: auto;
+      max-width: 90%;
+      
+     
+    }
+    .cast{
+      margin-inline: auto;
+      max-width: 100%;
+      padding-left: 0;
+
+    }
+   
+  }
+  #filmoftheweek > div.film-cast > aside > article > p:nth-child(3){
+    display: none;
+  }
+  .trailer{
+    height: 300px;
+  }
 }

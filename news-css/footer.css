@@ -163,3 +163,12 @@
     justify-content: center;
   }
 }
+/* media queries */
+@media screen and (max-width: 768px){
+  .red-buttons{
+    display: none;
+  }
+  .scroll-to-start{
+    display: none;
+  }
+}

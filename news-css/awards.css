@@ -150,3 +150,41 @@
     opacity: 0;
   }
 }
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+  body > main > section.news-header{
+    height: 120px;
+    nav{
+      display: none;
+    }
+    div{
+      display: none;
+    }    
+  }
+  .categories{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    top: 5%;
+    
+    article{
+      width: 90%;   
+      padding-top: 300px; 
+    }
+  }
+  .bg-awards::before{
+    display: none;
+    height: 1000px;
+  }
+  .filmax-awards{
+width: 80%;
+margin-inline: auto;
+  }
+  .awards{height:1750px;}
+  .actor{
+    background-position:  0% 20%;
+  }
+  .direction{
+    background-position:  0% 40%;
+  }
+}

@@ -48,3 +48,37 @@
    padding-right: 10px;
   }
 }
+/* media queries */
+@media screen and (max-width: 768px){
+  .bg-interview{
+    position: relative;
+    background-position: 80% 80%;   
+    article p{
+      padding-block: 5px;
+    }
+    
+    
+  }
+  .interview{
+    top: 0;
+    position: absolute;
+    left:5%;
+    margin-inline: auto   ;
+    text-shadow: 2px 2px 0px black;
+  
+       
+    h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+  }
+  
+  span{
+    color: white;
+  }
+}
+.biography{
+  margin-top: 30px;
+}
+ 
+}
