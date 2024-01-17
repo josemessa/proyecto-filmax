@@ -70,3 +70,25 @@
    }
   }
 }
+
+/* media queries */
+@media screen and (max-width: 740px) {
+  .by-gender {
+    flex-direction: column;
+    max-width: 90%;
+    div{
+    }
+    h3{
+      font-size: 25px;
+    }
+    article a{
+      font-size: 15px;
+    }
+    
+  }
+  ul{
+    margin-inline: auto;
+
+  }
+  
+}

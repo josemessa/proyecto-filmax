@@ -18,7 +18,7 @@
   :nth-child(1) img {
     padding-bottom: 15px;
   }
-  
+
   div h3 {
     font-weight: var(--weight-title);
     font-family: "Roboto", sans-serif;
@@ -30,7 +30,7 @@
     gap: 10px;
     display: flex;
   }
-  
+
   :nth-child(4) nav ul {
     display: flex;
     position: relative;
@@ -111,7 +111,7 @@
     background-color: red;
   }
 }
-.newsletter{
+.newsletter {
   &::after {
     display: flex;
     content: "";
@@ -119,8 +119,8 @@
     height: 1px;
     background-color: grey;
   }
-  input{
-     transition: all;
+  input {
+    transition: all;
     transition-duration: 0.5s;
     padding-bottom: 15px;
     padding-right: 90px;
@@ -128,12 +128,33 @@
     font-size: 12px;
     font-weight: 300;
   }
-  svg{
+  svg {
     transition: all;
     transition-duration: 0.5s;
-    &:hover{
+    &:hover {
       fill: red;
     }
   }
-  
+}
+
+/* media queries */
+@media screen and (max-width: 740px) {
+  .bg-footer {
+    height: 740px;
+  }
+  .footer {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    div {
+      margin-inline: auto;
+      margin-bottom: 15px;
+    }
+  }
+  body > footer > div > div:nth-child(3) > ul > li {
+    display: flex;
+    justify-content: center;
+  }
 }

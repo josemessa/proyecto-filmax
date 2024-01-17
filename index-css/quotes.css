@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     flex: 0 0 400px;
+    
   }
   
   article div {
@@ -60,4 +61,24 @@
   background-color: black;
   fill: white;
   border-radius: 50%;
+}
+
+/*  media queries */
+@media screen and (max-width: 740px){
+  .bg-quotes{
+    height: fit-content;
+   
+  }
+  .quotes{
+    display: block;
+    overflow: visible;
+    padding-top: 30px;
+    height: 100%;
+    article{      
+      width: 100%;
+    }
+  }
+  .quotes article  div  blockquote  p{
+    width: 80%;
+  }
 }

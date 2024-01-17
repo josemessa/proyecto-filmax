@@ -182,3 +182,15 @@
   background-color: rgb(56, 56, 56);
   border-radius: 50%;
 }
+
+/* media queries */
+
+
+@media screen and (max-width: 740px){
+  .film-bar{
+    flex-direction: column;
+    article{
+      width: 100%;
+    }
+  }
+}
