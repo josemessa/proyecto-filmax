@@ -56,7 +56,7 @@
     content: "";
     width: 20px;
     height: 1px;
-    background-color: red;
+    background-color: var(--color-after);
   }
 }
 
@@ -104,7 +104,7 @@ aside {
     transition: all;
    transition-duration: 0.5s;
    &:hover {
-    color: #e0041d;
+    color: var(--color-after);
   }
   }
 } 

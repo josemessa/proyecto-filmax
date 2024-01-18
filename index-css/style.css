@@ -4,6 +4,7 @@
   --weight-title: 700;
   --font-quote: "Lora", serif;
   --color-header: #1a1d24;
+  --color-after:#e0011a;
 }
 *:where(
     :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)

@@ -20,7 +20,7 @@
   div div {
     height: 1.5px;
     width: 55px;
-    background-color: red;
+    background-color: var(--color-after);
     margin-bottom: 25px;
   }
   div p {
@@ -71,7 +71,7 @@
   display: flex;
   a {
     gap: 5px;
-    color: red;
+    color: var(--color-after);
     display: flex;
     align-items: center;
     &.watch{

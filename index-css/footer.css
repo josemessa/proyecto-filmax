@@ -25,8 +25,7 @@
     color: var(--color-title);
     text-transform: uppercase;
     padding-bottom: 15px;
-    align-items: center;
-    gap: 10px;
+       gap: 10px;
     display: flex;
   }
 
@@ -107,7 +106,7 @@
     content: "";
     width: 20px;
     height: 1px;
-    background-color: red;
+    background-color:var(--color-after);
   }
 }
 .newsletter {
@@ -131,7 +130,7 @@
     transition: all;
     transition-duration: 0.5s;
     &:hover {
-      fill: red;
+      fill: var(--color-after);
     }
   }
 }
@@ -149,6 +148,14 @@
     div {
       margin-inline: auto;
       margin-bottom: 15px;
+      h3.ul-line{
+        display: flex;
+        flex-direction: column;
+      
+        &::after{
+          width: 100%;
+        }
+      }
     }
   }
   body > footer > div > div:nth-child(3) > ul > li {
@@ -160,6 +167,8 @@
     justify-content: center;
   }
   body > footer > div > div:nth-child(1) > img{
-    margin-inline: auto;
+   display: flex;
+   margin-inline: auto; 
   }
+ 
 }

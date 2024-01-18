@@ -1,11 +1,11 @@
 .bg-quotes {
-  background-color: #e0011a;
+  background-color: var(--color-after);
 }
 .quotes { 
   display: flex;
   height: 500px;
   max-width: 1200px; 
-  background-color: #e0011a;
+  background-color: var(--color-after);
   margin-inline: auto;
   overflow: hidden;
   article {
