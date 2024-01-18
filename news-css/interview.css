@@ -36,7 +36,7 @@
   position: absolute;
   right: 0;
   gap: 20px;
-  color: grey;
+  color: #f8b350;
   text-transform: uppercase;
   font-weight: var(--weight-title);
   transition: all;

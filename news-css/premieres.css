@@ -1,104 +1,103 @@
-.bg-premieres{
-    position:relative;
-    background-color: white;
-    &::before{
-        content:"";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(1deg, black, transparent) ;
-    }
+.bg-premieres {
+  position: relative;
+  background-color: white;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(1deg, black, transparent);
+  }
 }
-.premieres{
-    position: relative;
-  
-    max-width: 1200px;
-    margin-inline: auto;
-    background-color: white;
+.premieres {
+  position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: white;
 }
-.soon{
-    padding-top: 30px;
-    padding-bottom: 50px;
-    left: 15px;
-    p{
-     font-family: var(--font-quote);
-     color: grey;
-   }
-   div {
+.soon {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  left: 15px;
+  p {
+    font-family: var(--font-quote);
+    color: grey;
+  }
+  div {
     height: 1.5px;
     width: 55px;
     background-color: red;
     margin-bottom: 25px;
   }
   h2 {
-      font-weight: var(--weight-title);
-      text-transform: uppercase;
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-}
-  /* grid */
-  .new-films{
-    display: grid;
-    position: absolute;
-    width: 1200px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 500px;z
-    gap: 20px;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
-  .aquaman{
-    position:relative;
-    grid-column: 3 / 4;
-    grid-row: 1/3;
-    background-image: url(https://pics.filmaffinity.com/Aquaman_y_el_reino_perdido-274178849-large.jpg);
-    background-size: cover;
-    background-position: center;
 }
-  .wonka{
-    position:relative;
-    grid-column: 4/5 ;
-    grid-row: 1/3;
-    background-image: url(https://es.web.img3.acsta.net/pictures/23/11/14/17/56/0356452.jpg);
-    background-size: cover;
-    background-position: center;
+/* grid */
+.new-films {
+  display: grid;
+  width: 1200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 600px;
+  gap: 20px;
+  padding-bottom: 50px;
 }
-.beekeeper{
-  position:relative;
-    background-image: url(https://pics.filmaffinity.com/Beekeeper_El_protector-634565179-large.jpg);
-    background-size: cover;
-    background-position: bottom;
+.aquaman {
+  position: relative;
+  grid-column: 3 / 4;
+  grid-row: 1/3;
+  background-image: url(https://pics.filmaffinity.com/Aquaman_y_el_reino_perdido-274178849-large.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.wish{
-  position:relative;
-    background-size: cover;
-    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_c9119457.jpeg?region=0,0,540,810);
-    background-position: center;
+.wonka {
+  position: relative;
+  grid-column: 4/5;
+  grid-row: 1/3;
+  background-image: url(https://es.web.img3.acsta.net/pictures/23/11/14/17/56/0356452.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.bricklayer{
-  position:relative;
-    background-size: cover;
-    background-image: url(https://pics.filmaffinity.com/The_Bricklayer-531058472-large.jpg);
-    background-position:top;
+.beekeeper {
+  position: relative;
+  background-image: url(https://pics.filmaffinity.com/Beekeeper_El_protector-634565179-large.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
-.napoleon{
-    position:relative;
-    background-size: cover;
-    background-image: url(https://es.web.img2.acsta.net/pictures/23/10/18/15/26/3220184.jpg);
-    background-position:top;
+.wish {
+  position: relative;
+  background-size: cover;
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_c9119457.jpeg?region=0,0,540,810);
+  background-position: center;
 }
-.premieres::before{
-    content:"";
+.bricklayer {
+  position: relative;
+  background-size: cover;
+  background-image: url(https://pics.filmaffinity.com/The_Bricklayer-531058472-large.jpg);
+  background-position: top;
+}
+.napoleon {
+  position: relative;
+  background-size: cover;
+  background-image: url(https://es.web.img2.acsta.net/pictures/23/10/18/15/26/3220184.jpg);
+  background-position: top;
+}
+.premieres::before {
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(1deg, black, transparent) ;
+  background: linear-gradient(1deg, black, transparent);
 }
-.dark-hover{
+.dark-hover {
   position: absolute;
   top: 0;
   left: 0;
@@ -108,21 +107,21 @@
   opacity: 0;
   transition: all;
   transition-duration: 1s;
-  &:hover{
+  &:hover {
     opacity: 0.7;
   }
-  &:hover .hidden-text{
+  &:hover .hidden-text {
     opacity: 1;
   }
 }
-.hidden-text{
+.hidden-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   opacity: 0;
   color: white;
-  font-weight:var(--weight-title);
+  font-weight: var(--weight-title);
   font-size: 40px;
   transition: all;
   transition-duration: 1s;
@@ -130,29 +129,33 @@
 
 /* media queries */
 
-@media screen and (max-width: 768px){
-  .bg-premieres{
-    display: flex;
-   justify-content: center;
-
-    &::before{
+@media screen and (max-width: 768px) {
+  .bg-premieres {
+    height: 100%;
+    &::before {
       display: none;
     }
   }
-  .premieres{
-   
-  &::before{
-    display: none;
-  }}
-  .new-films{
-   display: flex;
-   flex-direction: column;  
-   margin-inline: auto;
-   max-width: 90%;
-   article{
+  .premieres {
+    max-width: 90%;
+
+    &::before {
+      display: none;
+    }
+  }
+  .new-films {
+    display: flex;
+    flex-direction: column;
     margin-inline: auto;
-    padding-top: 400px;
-     width: 90%;
-   }
-  }  
+    max-width: 90%;
+    height: 100%;
+  }
+  .soon > p {
+    font-size: 20px;
+  }
+  .new-films article {
+    height: 400px;
+    width: 100%;
+    flex: 0 0 auto;
+  }
 }
