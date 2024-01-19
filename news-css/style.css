@@ -1,5 +1,5 @@
 :root {
-  --font-title: "Roboto", sans-serif;
+  --font-title: 'Roboto Condensed', sans-serif;
   --color-title: white;
   --weight-title: 700;
   --font-quote: "Lora", serif;
@@ -16,8 +16,9 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
-  font-family: "Roboto";
+  scroll-behavior: smooth;  
+  font-family: 'Lora', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 li {
   list-style: none;
@@ -38,6 +39,10 @@ img {
 h3 {
   cursor: pointer;
 }
+time{
+  cursor: pointer;
+}
+
 .scroll-to-start{
   display: flex;
   position: fixed;

@@ -1,13 +1,13 @@
 .bg-main {
   display: block;
-  background-color: #1a1d24;
+  background-color: var(--color-header);
 }
 
 .news {
   position: relative;
   max-width: 1200px;
   margin-inline: auto;
-  background-color: #1a1d24;
+  background-color: var(--color-header);
   display: flex;
   gap: 30px;
   color: var(--color-title);

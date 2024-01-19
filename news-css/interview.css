@@ -14,6 +14,7 @@
     article p{
       font-family: var(--font-quote);
       padding-block: 20px;
+      text-shadow: 1px 1px 1px black;
     }
     time{
       font-weight: var(--weight-title);
@@ -36,11 +37,12 @@
   position: absolute;
   right: 0;
   gap: 20px;
-  color: #f8b350;
+  color: white;
   text-transform: uppercase;
   font-weight: var(--weight-title);
   transition: all;
   transition-duration: 0.5s;
+  text-shadow: 1px 1px 1px black;
   &:hover{
     color: red;
   }
