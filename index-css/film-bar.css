@@ -23,76 +23,70 @@
 .inferno{
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-485x665.jpg);
   background-position: center;
-  background-size: cover;
-  &:hover .trailer-info{
+  background-size: cover;  
+  &:hover .trailer-info {    
     opacity: 1;
   }
+  .title-gender, .trailer-info{
+    transition: all 0.5s;
+  }
   &:hover .title-gender{
-    transition: all;
-    transition-duration: 0.5s;
     transform: translateY(-60px)
   }
-  &:hover .trailer-info{
-    transition: all;
-    transition-duration:0.5s;
+  &:hover .trailer-info{    
     transform: translateY(-25px)
   }
-  
 }
 .bandofbrothers{
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-485x665.jpg);
-  background-position: center;
-  background-size: cover ;
-  &:hover .trailer-info{
+    background-position: center;
+  background-size: cover;  
+  &:hover .trailer-info {    
     opacity: 1;
   }
+  .title-gender, .trailer-info{
+    transition: all 0.5s;
+  }
   &:hover .title-gender{
-    transition: all;
-    transition-duration: 0.5s;
     transform: translateY(-60px)
   }
-  &:hover .trailer-info{
-    transition: all;
-    transition-duration:0.5s;
+  &:hover .trailer-info{    
     transform: translateY(-25px)
   }
 }
 .piratesbay{
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg);
   background-position: center;
-  background-size: cover ;
-  &:hover .trailer-info{
+  background-size: cover;  
+  &:hover .trailer-info {    
     opacity: 1;
   }
+  .title-gender, .trailer-info{
+    transition: all 0.5s;
+  }
   &:hover .title-gender{
-    transition: all;
-    transition-duration: 0.5s;
     transform: translateY(-60px)
   }
-  &:hover .trailer-info{
-    transition: all;
-    transition-duration:0.5s;
+  &:hover .trailer-info{    
     transform: translateY(-25px)
   }
 }
 .gladiator{
   background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-485x665.jpg);
   background-position: center;
-  background-size: cover ;
-  &:hover .trailer-info{
+  background-size: cover;  
+  &:hover .trailer-info {    
     opacity: 1;
   }
+  .title-gender, .trailer-info{
+    transition: all 0.5s;
+  }
   &:hover .title-gender{
-    transition: all;
-    transition-duration: 0.5s;
     transform: translateY(-60px)
   }
-  &:hover .trailer-info{
-    transition: all;
-    transition-duration:0.5s;
+  &:hover .trailer-info{    
     transform: translateY(-25px)
   }
-  
 }
 .text-box{
   z-index: 2;

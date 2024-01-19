@@ -110,7 +110,7 @@
     flex-direction: column;
     margin-inline: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     .list-home{
       gap: 5px;
     }
