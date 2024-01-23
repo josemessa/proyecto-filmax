@@ -1,0 +1,111 @@
+/*SAMURAI (samurai background+info)*/
+.bg-samurai {
+  background-color: white;
+
+  position: relative;
+}
+.samurai {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/bg_samurai.jpg?id=458);
+  height: 550px;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.samurai-data {
+  width: 50%;
+  div div {
+    height: 1.5px;
+    width: 55px;
+    background-color: var(--color-after);
+    margin-bottom: 25px;
+  }
+  div p {
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  div h3 {
+    font-weight: var(--weight-title);
+    color: #1a1d24;
+    text-transform: uppercase;
+    font-size: 44px;
+    letter-spacing: -0.3px;
+    margin-bottom: 30px;
+  }
+
+  :nth-child(2) > span {
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    color: #1a1d24;
+    margin-right: 25px;
+    font-size: 14px;
+  }
+  p {
+    margin-top: 26px;
+    margin-bottom: 25px;
+    color: grey;
+    font-weight: 300;
+  }
+
+  footer a {
+    margin-right: 30px;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all;
+    transition-duration: 0.5s;
+    &:hover {
+      color: rgb(175, 4, 4);
+    }
+  }
+}
+
+.bg-samurai div div footer {
+  align-items: center;
+  display: flex;
+  a {
+    gap: 5px;
+    color: var(--color-after);
+    display: flex;
+    align-items: center;
+    &.watch {
+      color: black;
+    }
+    &:hover {
+      color: rgb(175, 4, 4);
+      svg {
+        transition: all;
+        transition-duration: 0.5s;
+        fill: rgb(175, 4, 4);
+      }
+    }
+  }
+  a:nth-child(4) {
+    padding: 5px;
+  }
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .bg-samurai {
+    display: flex;
+    position: relative;
+  }
+  .samurai {
+    width: 80%;
+    flex-direction: column;
+  }
+  .samurai-data {
+    position: absolute;
+    right: 1%;
+    padding-bottom: 30%;
+    width: 70%;
+  }
+}

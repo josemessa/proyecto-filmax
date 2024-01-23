@@ -1,0 +1,85 @@
+.bg-quotes {
+  background-color: var(--color-after);
+}
+.quotes {
+  display: flex;
+  height: 500px;
+  max-width: 1200px;
+  background-color: var(--color-after);
+  margin-inline: auto;
+  overflow: hidden;
+  article {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex: 0 0 400px;
+  }
+
+  article div {
+    color: white;
+    img {
+      display: flex;
+      margin-inline: auto;
+      margin-bottom: 30px;
+      border-radius: 50%;
+    }
+    blockquote p {
+      width: 95%;
+      margin-inline: auto;
+      margin-bottom: 25px;
+      font-family: var(--font-quote);
+      font-size: 19.5px;
+    }
+
+    blockquote > * {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    blockquote h4 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    blockquote span {
+      font-size: 12px;
+      font-weight: 100;
+    }
+  }
+}
+.quote-symbol {
+  margin-left: 44%;
+  position: relative;
+  margin-top: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  fill: white;
+  border-radius: 50%;
+}
+
+/*  media queries */
+@media screen and (max-width: 768px) {
+  .bg-quotes {
+    height: fit-content;
+  }
+  .quotes {
+    margin-inline: auto;
+    display: block;
+    overflow: visible;
+    padding-top: 30px;
+    height: 100%;
+    article {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .quotes article div blockquote p {
+    width: 80%;
+  }
+}

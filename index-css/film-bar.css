@@ -1,0 +1,193 @@
+/*FILM-BAR*/
+
+.film-bar {
+  display: flex;
+  position: relative;
+  article {
+    position: relative;
+    width: 25%;
+    height: 700px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+      ); /* Degradado de negro a transparente */
+    }
+  }
+}
+.inferno {
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover;
+  &:hover .trailer-info {
+    opacity: 1;
+  }
+  .title-gender,
+  .trailer-info {
+    transition: all 0.5s;
+  }
+  &:hover .title-gender {
+    transform: translateY(-60px);
+  }
+  &:hover .trailer-info {
+    transform: translateY(-25px);
+  }
+}
+.bandofbrothers {
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover;
+  &:hover .trailer-info {
+    opacity: 1;
+  }
+  .title-gender,
+  .trailer-info {
+    transition: all 0.5s;
+  }
+  &:hover .title-gender {
+    transform: translateY(-60px);
+  }
+  &:hover .trailer-info {
+    transform: translateY(-25px);
+  }
+}
+.piratesbay {
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover;
+  &:hover .trailer-info {
+    opacity: 1;
+  }
+  .title-gender,
+  .trailer-info {
+    transition: all 0.5s;
+  }
+  &:hover .title-gender {
+    transform: translateY(-60px);
+  }
+  &:hover .trailer-info {
+    transform: translateY(-25px);
+  }
+}
+.gladiator {
+  background-image: url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-485x665.jpg);
+  background-position: center;
+  background-size: cover;
+  &:hover .trailer-info {
+    opacity: 1;
+  }
+  .title-gender,
+  .trailer-info {
+    transition: all 0.5s;
+  }
+  &:hover .title-gender {
+    transform: translateY(-60px);
+  }
+  &:hover .trailer-info {
+    transform: translateY(-25px);
+  }
+}
+.text-box {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  color: white;
+  transition: all;
+  transition-duration: 0.5s;
+
+  h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transition: all;
+    transition-duration: 0.5s;
+    &:hover {
+      color: lightgray;
+    }
+    &::before {
+      content: "";
+      display: flex;
+      width: 50px;
+      height: 1px;
+      margin-bottom: 30px;
+      background-color: orange;
+    }
+  }
+}
+.title-gender a {
+  display: inline-flex;
+  color: lightgrey;
+  font-size: 12px;
+  transition: all;
+  transition-duration: 0.5s;
+  &:nth-child(3)::before {
+    content: "/";
+  }
+  &:hover {
+    color: white;
+  }
+}
+.trailer-info {
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  font-weight: var(--weight-title);
+  font-size: 11px;
+  text-transform: uppercase;
+  transition: all;
+  transition-duration: 0.5s;
+  a {
+    &:hover {
+      color: lightgrey;
+    }
+  }
+}
+.trailer-info > button:hover {
+  color: lightgrey;
+}
+
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 50%;
+  fill: orange;
+}
+.arrow-button {
+  fill: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 50%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .film-bar {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    article {
+      width: 100%;
+    }
+  }
+}

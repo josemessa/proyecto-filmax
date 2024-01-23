@@ -1,0 +1,176 @@
+.bg-main {
+  display: block;
+  background-color: var(--color-header);
+}
+
+.news {
+  position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: var(--color-header);
+  display: flex;
+  gap: 30px;
+  color: var(--color-title);
+  padding-bottom: 200px;
+  > article {
+    height: 600px;
+    width: 80%;
+    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h2 {
+      font-size: 37px;
+      text-transform: uppercase;
+      font-weight: var(--weight-title);
+    }
+    p {
+      color: rgb(145, 143, 143);
+      margin-block: 15px;
+      font-weight: 500;
+    }
+    a {
+      text-transform: uppercase;
+      font-weight: var(--weight-title);
+    }
+  }
+  aside article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+    article :last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.recent {
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &::after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: var(--color-after);
+  }
+}
+
+aside {
+  max-width: 24%;
+  img {
+    width: 110px;
+    height: 90px;
+  }
+  article h3 {
+    font-weight: var(--weight-title);
+  }
+  article h3 {
+    font-weight: var(--weight-title);
+    margin-bottom: 4px;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  h3:hover {
+    color: grey;
+  }
+  time {
+    color: rgb(145, 143, 143);
+    font-size: 12px;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  time:hover {
+    color: white;
+  }
+}
+
+.news-data {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #1a1d24;
+  padding: 25px 0 0 25px;
+  max-width: 35%;
+  padding-bottom: 200px;
+  a {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    transition: all;
+    transition-duration: 0.5s;
+    &:hover {
+      color: var(--color-after);
+    }
+  }
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .news {
+    max-width: 100%;
+    display: block;
+
+    article {
+      position: relative;
+      margin-inline: auto;
+
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+  .news-data {
+    max-width: 100%;
+    height: 30%;
+    padding: 20;
+  }
+
+  aside {
+    max-width: 90%;
+    margin-inline: auto;
+    margin-top: 100px;
+    div {
+      width: 90%;
+      h3 {
+        font-size: 20px;
+      }
+    }
+    article:nth-child(2) {
+      display: block;
+      margin-bottom: 10%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    article:nth-child(3) {
+      display: block;
+      margin-bottom: 10%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    article:nth-child(4) {
+      display: block;
+      margin-bottom: 10%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .recent {
+    font-size: 30px;
+  }
+}
