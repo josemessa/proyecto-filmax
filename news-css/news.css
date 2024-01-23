@@ -18,7 +18,6 @@
   h1::after {
     display: flex;
     content: "";
-    width: 110.31px;
     height: 1px;
     background-color: red;
   }
