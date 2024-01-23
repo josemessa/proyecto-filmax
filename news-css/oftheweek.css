@@ -15,33 +15,32 @@
   flex-direction: column;
   align-items: center;
   margin-inline: auto;
-  img{
+  img {
     height: 60px;
     margin-bottom: 15px;
   }
   p {
-   display: flex;
-   justify-content: center;
-   font-family: var(--font-quote);
-   color: rgb(0, 0, 0);
-   margin-inline: auto;
-   padding-bottom: 15px;
- }
- h2 {
-   display: flex;
-   font-weight: var(--weight-title);
-   text-transform: uppercase;
-   font-size: 40px;
-   align-items: center;
-   gap: 15px;
-   &::after {
-    content: "";
-    height: 1.5px;
-    width: 55px;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-quote);
+    color: rgb(0, 0, 0);
+    margin-inline: auto;
+    padding-bottom: 15px;
   }
- }
-  
+  h2 {
+    display: flex;
+    font-weight: var(--weight-title);
+    text-transform: uppercase;
+    font-size: 40px;
+    align-items: center;
+    gap: 15px;
+    &::after {
+      content: "";
+      height: 1.5px;
+      width: 55px;
+      background-color: red;
+    }
+  }
 }
 .film-cast {
   display: flex;
@@ -54,8 +53,6 @@
   width: 780px;
   height: auto;
   box-shadow: 10px 10px 5px rgb(46, 46, 46);
-  
-
 }
 aside {
   padding-left: 50px;
@@ -65,47 +62,45 @@ aside {
     font-size: 15px;
   }
 }
-.cast{
+.cast {
   article {
-   display: flex;
+    display: flex;
   }
   article div {
     margin: 5px;
     height: 90px;
     width: 90px;
-
   }
-   article p {
+  article p {
     display: flex;
     align-items: center;
     padding-left: 15px;
     font-weight: 700;
     text-shadow: 10px 10px 5px rgb(148, 148, 148);
   }
-  
 }
-.neo  div {
+.neo div {
   background-image: url(https://media.gq.com.mx/photos/5f57d52d4464f9b88fb26729/4:3/w_2664,h_1998,c_limit/Keanu-Reeves.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50%;
   box-shadow: 10px 10px 5px rgb(46, 46, 46);
 }
-.trinity  div {
+.trinity div {
   background-image: url(https://www.mytalk1071.com/wp-content/uploads/2021/12/CMG708d514a-4c79-4e6f-90a8-c8bd7b0676ca.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50%;
   box-shadow: 10px 10px 5px rgb(46, 46, 46);
 }
-.morfeo  div {
+.morfeo div {
   background-image: url(https://goldenglobes.com/wp-content/uploads/2023/10/laurence_fishburne-2065828.jpg?w=600);
   background-size: cover;
   background-position: center;
   border-radius: 50%;
   box-shadow: 10px 10px 5px rgb(46, 46, 46);
 }
-.smith  div {
+.smith div {
   background-image: url(https://es.web.img3.acsta.net/pictures/16/07/07/10/51/355496.jpg);
   background-size: cover;
   background-position: center;
@@ -113,50 +108,45 @@ aside {
   box-shadow: 10px 10px 5px rgb(46, 46, 46);
 }
 
-.matrix-logo{
-    top: 17%;
+.matrix-logo {
+  top: 17%;
   left: 11%;
   width: 500px;
   height: auto;
   transition: all;
   transition-duration: 1s;
-  &:hover{
+  &:hover {
     width: 550px;
   }
 }
 
-
-@media screen and (max-width: 768px){
-  .bg-trailer{
+@media screen and (max-width: 768px) {
+  .bg-trailer {
     height: 1200px;
   }
 
-  .filmofweek{
-    max-width: 90%;     
+  .filmofweek {
+    max-width: 90%;
   }
-  .film-cast{
+  .film-cast {
     gap: 40px;
     flex-direction: column;
-   margin-inline: auto;
-   bottom: 15px;
-    iframe{
+    margin-inline: auto;
+    bottom: 15px;
+    iframe {
       margin-inline: auto;
       max-width: 90%;
-      
-     
     }
-    .cast{
+    .cast {
       margin-inline: auto;
       max-width: 100%;
       padding-left: 0;
-
     }
-   
   }
-  #filmoftheweek > div.film-cast > aside > article > p:nth-child(3){
+  #filmoftheweek > div.film-cast > aside > article > p:nth-child(3) {
     display: none;
   }
-  .trailer{
+  .trailer {
     height: 300px;
   }
 }

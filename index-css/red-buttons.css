@@ -14,19 +14,19 @@
   display: flex;
   width: 70px;
   height: 60px;
-  fill:black;
+  fill: black;
   background-color: #e0011a;
   align-items: center;
   justify-content: center;
   box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
-  svg{
-     position: absolute;
-     left: 25%;
- }
- &:hover {
-   transform: translateX(-15%);
- }
+  svg {
+    position: absolute;
+    left: 25%;
+  }
+  &:hover {
+    transform: translateX(-15%);
+  }
 }
 .best-sellers {
   position: relative;
@@ -42,9 +42,9 @@
   &:hover {
     transform: translateX(-15%);
   }
-   svg{
-      position: absolute;
-      left: 25%;
+  svg {
+    position: absolute;
+    left: 25%;
   }
 }
 .hide-panel {
@@ -58,13 +58,13 @@
   justify-content: center;
   box-shadow: -3px 3px 2px #74000e;
   transition-duration: 0.5s;
-  svg{
-     position: absolute;
-     left: 25%;
- }
- &:hover {
-   transform: translateX(-15%);
- }
+  svg {
+    position: absolute;
+    left: 25%;
+  }
+  &:hover {
+    transform: translateX(-15%);
+  }
 }
 
 .scroll-to-start {
@@ -79,17 +79,17 @@
   justify-content: center;
   top: 87%;
   left: 95%;
-  &:hover{
-    fill: var( --color-after);
+  &:hover {
+    fill: var(--color-after);
   }
 }
 
 /* media queries */
-@media screen and (max-width: 768px){
-  .red-buttons{
+@media screen and (max-width: 768px) {
+  .red-buttons {
     display: none;
   }
-  .scroll-to-start{
+  .scroll-to-start {
     display: none;
   }
 }
